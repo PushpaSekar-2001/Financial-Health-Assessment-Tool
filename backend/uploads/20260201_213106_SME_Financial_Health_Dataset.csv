@@ -1,0 +1,1001 @@
+business_id,industry_type,annual_revenue,total_expenses,loan_amount,emi_amount,gst_compliance_status,current_ratio,quick_ratio,debt_equity_ratio,dscr,roce,financial_health_score,risk_category,ai_recommendation
+SME_1,E-commerce,34999221,26355176,16798469,5141,Delayed,2.63,2.54,2.4,2.61,24.03,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_2,Logistics,28772916,38633146,2276787,2708,Non-Compliant,0.45,1.1,0.2,2.53,6.96,68.0,Medium Risk,Optimize working capital and control operational costs
+SME_3,Services,26191717,42064130,7690840,18375,Non-Compliant,3.27,2.69,1.92,1.73,-7.34,68.0,Medium Risk,Optimize working capital and control operational costs
+SME_4,Logistics,15252367,15009307,9338770,15088,Compliant,0.59,0.65,1.42,0.45,-9.94,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_5,Logistics,19532579,36276898,15342276,11834,Non-Compliant,1.21,0.68,3.39,0.54,10.93,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_6,Manufacturing,30854781,8178748,15200562,12278,Delayed,2.45,0.95,1.02,2.23,3.76,77.0,Low Risk,Eligible for growth investment or working capital loan
+SME_7,Services,42430173,42054364,1274634,10014,Non-Compliant,0.84,0.53,1.0,1.84,29.89,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_8,Services,17014877,2346830,2755063,3273,Compliant,0.48,0.84,0.93,2.63,20.9,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_9,Services,39111293,33397728,1228807,14367,Non-Compliant,1.36,0.5,0.65,1.59,20.45,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_10,Logistics,6936446,41193419,16286171,4538,Non-Compliant,2.75,2.5,1.47,3.47,28.21,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_11,E-commerce,38203319,10357168,12902884,12541,Compliant,1.62,0.59,4.0,4.33,25.51,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_12,Services,26872918,38614493,7601748,8712,Compliant,2.39,2.29,3.51,1.56,2.73,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_13,Agriculture,9557014,33280340,4463158,9168,Delayed,2.15,0.33,3.34,1.05,-3.36,11.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_14,Logistics,20946082,36559646,8803208,3551,Non-Compliant,0.37,2.86,3.61,0.67,19.84,48.0,Medium Risk,Optimize working capital and control operational costs
+SME_15,Manufacturing,38666770,41878073,2269070,12297,Delayed,3.46,2.19,1.29,3.12,5.13,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_16,E-commerce,11742014,36183612,4413359,10965,Non-Compliant,0.43,0.22,4.0,2.27,8.93,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_17,Agriculture,18310471,11117207,7640167,2832,Non-Compliant,3.4,2.34,0.7,1.02,15.22,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_18,Agriculture,41136644,15940627,19608785,13422,Delayed,2.06,1.64,1.58,3.3,26.31,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_19,Manufacturing,11941374,16569764,7322153,152,Non-Compliant,3.38,2.38,2.68,0.83,6.76,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_20,E-commerce,26206501,9784451,9837371,11156,Non-Compliant,0.67,1.66,0.55,2.82,21.33,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_21,Logistics,31555169,4588891,2519507,11108,Non-Compliant,1.87,1.99,3.31,2.68,0.73,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_22,Retail,3594235,9414653,13454789,2800,Compliant,0.84,2.4,1.8,3.7,17.92,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_23,E-commerce,48370026,14464147,18033931,5310,Delayed,0.46,1.33,3.55,0.37,-9.94,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_24,Manufacturing,26837283,21208635,8468865,9944,Compliant,2.28,0.21,2.27,4.45,24.86,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_25,Agriculture,23263342,38449943,18303750,2610,Delayed,0.96,2.58,0.9,3.54,-8.78,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_26,Logistics,20136869,33284400,17601359,12067,Delayed,2.18,1.27,3.33,1.16,18.51,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_27,E-commerce,27632021,2763999,16001900,1104,Non-Compliant,0.66,1.59,1.21,1.0,-8.15,12.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_28,Retail,34442384,43063528,14890609,10728,Delayed,1.36,0.22,2.26,2.22,0.65,35.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_29,Retail,27875197,5190691,371616,7263,Compliant,2.8,1.58,0.43,4.11,9.89,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_30,Services,18307333,28350196,18737371,1914,Compliant,1.7,2.96,2.82,4.23,6.8,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_31,Services,36412253,21403105,9163766,19456,Compliant,2.31,0.98,3.03,2.65,-2.33,49.0,Medium Risk,Optimize working capital and control operational costs
+SME_32,Manufacturing,32716504,10252415,19487743,406,Delayed,2.37,1.31,1.77,4.32,3.35,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_33,E-commerce,42968174,17466318,18546183,13689,Compliant,3.0,2.12,4.3,0.13,19.11,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_34,E-commerce,16763882,43679777,14451300,166,Delayed,1.34,2.48,3.95,0.27,16.77,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_35,Agriculture,39638695,33721714,279215,508,Compliant,2.5,1.37,3.21,4.57,-7.13,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_36,Agriculture,34299193,11586361,15748714,18045,Compliant,3.38,1.07,3.24,3.9,19.89,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_37,Agriculture,45414860,26656629,2843236,3664,Delayed,2.64,2.83,1.21,2.31,-7.88,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_38,Services,17112651,32771979,12126467,19873,Compliant,1.87,2.1,2.99,3.79,11.72,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_39,E-commerce,8886180,38398210,7379933,13050,Non-Compliant,2.32,0.53,0.97,4.78,0.4,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_40,E-commerce,48514453,28575911,1960584,680,Delayed,2.67,0.39,0.73,3.88,13.51,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_41,Retail,34118755,34214548,17355904,18908,Delayed,2.26,1.55,4.5,4.23,0.45,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_42,Services,15796274,6486368,15884862,18504,Delayed,0.35,0.82,2.84,3.83,29.4,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_43,Logistics,33186304,28607970,4226156,4357,Non-Compliant,0.92,0.91,2.0,0.92,2.39,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_44,Services,8540979,44961177,16567828,1363,Delayed,2.89,2.66,1.37,4.18,-0.32,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_45,Logistics,35008912,12350831,7983372,9523,Compliant,1.17,0.45,2.76,1.06,1.14,13.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_46,Retail,23958350,35212381,11590817,2292,Compliant,2.64,2.2,0.32,4.47,25.86,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_47,Manufacturing,18131232,33935574,8127747,1538,Compliant,1.49,0.96,0.52,2.35,15.45,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_48,E-commerce,5847417,32786345,13829625,3408,Delayed,1.97,2.33,0.24,3.42,19.23,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_49,Retail,9753517,14007851,17017184,8752,Compliant,0.52,2.22,2.3,2.54,26.72,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_50,E-commerce,32199263,11760589,2592536,18287,Delayed,0.88,0.22,2.74,0.56,26.47,49.0,Medium Risk,Optimize working capital and control operational costs
+SME_51,Agriculture,39864133,39492598,11364243,174,Compliant,3.36,1.63,0.37,1.52,19.56,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_52,Manufacturing,13871172,29524900,5504381,2230,Non-Compliant,3.15,0.59,3.27,4.92,-2.09,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_53,Manufacturing,26716317,28887589,17296381,4287,Non-Compliant,2.39,2.63,1.11,4.81,23.73,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_54,Retail,44048158,34342508,3878363,12112,Non-Compliant,1.77,2.64,3.11,1.67,-1.85,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_55,Manufacturing,35470444,16048245,17804773,7106,Non-Compliant,2.46,1.37,4.42,4.98,19.72,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_56,Logistics,6252810,33923310,7435697,9689,Delayed,2.28,1.44,3.14,4.24,17.42,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_57,Manufacturing,1071650,5940070,5898885,12046,Compliant,2.12,1.05,3.99,3.09,20.36,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_58,E-commerce,21753792,27764435,7601723,19555,Non-Compliant,0.49,2.21,4.27,0.3,11.31,14.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_59,E-commerce,42828965,6891878,7946155,17951,Delayed,2.32,1.2,2.24,4.52,15.55,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_60,E-commerce,36918225,31641029,15850872,1151,Non-Compliant,2.76,0.95,3.19,2.83,28.13,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_61,E-commerce,5409047,2360826,10384778,7619,Non-Compliant,3.48,1.41,3.85,4.36,-5.96,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_62,Logistics,40935721,3244664,12277185,6033,Delayed,0.34,0.46,1.67,4.19,2.35,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_63,Services,7922212,36567707,5688238,8560,Delayed,2.64,2.29,1.25,4.18,14.45,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_64,Agriculture,4257974,35332801,13874539,4946,Compliant,2.13,0.24,4.27,3.52,28.56,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_65,Retail,9291689,2490212,6703560,1907,Compliant,1.69,2.0,3.3,1.53,-6.18,23.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_66,E-commerce,24488395,39185284,18562775,3490,Non-Compliant,0.71,0.71,1.07,1.75,-9.1,15.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_67,Manufacturing,42821932,44585024,8697057,18919,Non-Compliant,1.61,0.85,2.08,1.61,-7.77,20.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_68,E-commerce,42346355,34107431,533634,4173,Compliant,1.43,1.98,3.6,0.2,-7.9,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_69,Manufacturing,20431456,21720139,8578845,11065,Compliant,1.27,2.98,2.51,2.95,26.31,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_70,Agriculture,41850756,25627191,8102873,17677,Delayed,2.64,2.38,2.96,3.52,18.85,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_71,Agriculture,12143208,26319139,9244655,4769,Compliant,2.54,0.83,3.42,4.28,17.08,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_72,Agriculture,44428336,5000108,4623636,4796,Compliant,2.18,0.69,2.84,0.79,10.9,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_73,Manufacturing,31943720,11793942,15325339,13046,Non-Compliant,3.3,2.63,2.48,2.77,21.28,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_74,E-commerce,8612074,3254190,5334233,14211,Compliant,1.42,1.44,3.4,0.14,-3.77,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_75,Agriculture,19467438,1684382,1406368,19356,Non-Compliant,1.08,0.58,3.3,0.57,5.68,9.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_76,Logistics,12638391,7596042,5785267,4997,Compliant,2.4,2.61,2.87,0.37,9.6,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_77,Manufacturing,24512790,37807753,18001960,17376,Delayed,0.94,2.49,1.68,3.65,-5.58,66.0,Medium Risk,Optimize working capital and control operational costs
+SME_78,Manufacturing,22482813,19832053,16150865,8112,Compliant,1.31,2.95,1.89,0.5,6.78,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_79,E-commerce,33374288,12272847,18908234,5287,Compliant,1.02,2.75,4.37,3.61,2.66,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_80,Manufacturing,30467940,18219593,11639736,10578,Compliant,0.52,2.59,0.59,1.32,-8.58,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_81,Manufacturing,11213405,38531465,16067759,18624,Non-Compliant,2.95,0.35,1.28,4.4,-4.53,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_82,Agriculture,10242257,3657181,3489429,17860,Delayed,1.11,0.49,2.27,4.08,20.56,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_83,E-commerce,48015508,22439912,15866128,6426,Compliant,1.81,1.79,3.78,4.79,-9.28,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_84,Agriculture,28651242,39108480,6478443,11599,Non-Compliant,0.44,1.69,0.82,4.43,27.37,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_85,Agriculture,4109736,42316167,10897034,389,Delayed,2.54,1.48,1.32,4.67,-6.54,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_86,E-commerce,8560833,33771818,10919694,999,Non-Compliant,1.36,1.31,0.39,4.31,21.97,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_87,Retail,40692587,16086144,17071962,12812,Non-Compliant,2.68,1.41,3.21,3.5,25.94,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_88,Agriculture,18661634,11256760,5710754,15599,Delayed,1.62,1.79,1.15,0.93,27.65,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_89,Logistics,17663810,19120027,5432019,1855,Compliant,0.93,0.21,1.81,1.43,24.7,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_90,Logistics,20146976,23684856,18479375,8125,Non-Compliant,1.94,0.93,2.05,1.14,1.5,38.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_91,Manufacturing,29472327,9105956,10392034,13794,Non-Compliant,0.72,1.65,4.02,3.06,3.32,40.0,Medium Risk,Optimize working capital and control operational costs
+SME_92,Logistics,12725855,32846436,16394487,2763,Compliant,1.71,2.22,1.91,2.57,7.06,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_93,Manufacturing,5738331,10114891,8512558,4986,Compliant,1.32,0.69,0.74,4.35,-4.43,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_94,Retail,1635964,25658148,12912550,1481,Delayed,3.22,1.73,2.41,4.77,-9.11,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_95,E-commerce,2655748,2720688,13183429,3731,Delayed,0.49,2.2,4.34,2.08,24.76,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_96,E-commerce,11933787,2205808,17930440,16835,Delayed,2.52,1.44,2.77,2.58,12.17,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_97,E-commerce,32308285,10109175,2650235,19477,Compliant,0.88,0.28,4.43,4.86,14.35,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_98,Logistics,34927604,38174891,4740039,17266,Non-Compliant,1.32,1.46,3.8,1.45,27.08,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_99,Retail,9410852,38490551,10129142,10758,Non-Compliant,1.63,1.03,0.26,3.98,16.6,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_100,Logistics,6155378,31449883,9693374,19661,Delayed,3.21,2.8,3.0,1.2,17.63,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_101,Logistics,38928026,21192686,19080770,16311,Compliant,1.08,0.55,1.36,3.44,21.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_102,Retail,38117741,38609230,19724078,8566,Non-Compliant,0.59,2.03,2.56,1.34,-5.35,13.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_103,Retail,32456377,12066027,2676517,11889,Delayed,1.32,0.35,1.33,4.43,4.41,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_104,Retail,7441245,37576570,4307086,11254,Non-Compliant,0.63,1.45,1.64,2.85,28.73,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_105,Retail,16376696,11329084,7331006,11442,Non-Compliant,0.71,1.75,4.16,1.01,26.92,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_106,E-commerce,9951244,13017619,8329442,13521,Compliant,2.14,1.03,1.01,1.2,25.36,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_107,Services,44229961,18115057,8831924,4559,Compliant,0.49,1.47,3.95,2.52,8.08,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_108,Services,8317304,10355661,6168563,16199,Non-Compliant,0.4,0.66,0.23,4.81,24.29,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_109,Retail,48204465,44259585,3456653,7291,Delayed,2.59,1.05,0.5,3.87,-8.06,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_110,Services,18106951,21109657,17252811,8160,Compliant,1.46,1.94,3.86,2.49,-4.06,32.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_111,Services,7521862,35161500,1888806,112,Non-Compliant,0.7,1.05,2.87,1.75,6.56,32.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_112,Retail,46273415,25960098,11633032,19581,Compliant,1.11,2.72,3.39,2.79,9.34,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_113,Services,8851245,35341412,18925307,15924,Compliant,2.35,1.96,1.02,3.77,0.54,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_114,Logistics,39337023,16102852,3961676,16523,Compliant,1.18,1.43,2.46,3.94,4.26,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_115,Manufacturing,41537490,41455392,1760462,1424,Non-Compliant,1.88,0.31,3.34,1.69,-3.49,16.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_116,Manufacturing,19839685,31473264,10627281,19333,Delayed,0.69,1.6,2.86,3.63,9.57,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_117,Retail,37140608,28513586,10011762,19552,Delayed,2.18,2.34,2.18,3.32,21.75,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_118,E-commerce,5845854,44736333,4058848,10808,Delayed,1.31,0.94,4.32,4.8,16.45,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_119,Retail,12183982,3440267,809178,6043,Compliant,2.31,2.46,3.08,4.66,-5.69,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_120,E-commerce,38938112,33549417,6934106,6989,Non-Compliant,2.89,0.91,4.09,3.97,9.5,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_121,Manufacturing,4181262,29408147,7486327,6261,Compliant,2.26,2.51,3.31,3.64,17.91,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_122,Retail,38687510,10085684,19339821,887,Delayed,1.25,0.44,3.34,1.44,11.2,34.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_123,Agriculture,3109089,21617066,721037,19488,Delayed,1.12,2.63,0.45,4.25,5.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_124,Logistics,18191444,7936765,16530109,16433,Non-Compliant,1.35,1.6,1.68,2.19,14.88,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_125,Services,1453959,19073436,1021469,19944,Compliant,0.83,1.03,3.88,1.43,28.75,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_126,E-commerce,44632455,37093176,5779277,16402,Delayed,0.88,0.94,1.12,1.98,-6.2,29.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_127,Agriculture,32811218,8935078,10769914,12253,Non-Compliant,2.83,1.41,0.61,4.2,5.6,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_128,Services,41959909,7335774,2892371,18990,Compliant,1.53,3.0,1.53,0.83,6.26,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_129,Services,10516389,18544439,10200944,7846,Compliant,1.7,0.82,1.07,2.34,13.08,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_130,Retail,20646754,26620970,12722456,6432,Delayed,2.2,0.49,4.17,2.51,-3.91,26.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_131,Services,12130982,19605297,16052493,13452,Delayed,2.19,1.84,3.92,0.28,-2.93,10.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_132,Logistics,29622503,4673445,17240217,13395,Compliant,0.52,1.57,2.3,1.06,1.41,19.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_133,Agriculture,27204425,3584790,10539669,3765,Compliant,2.96,1.67,0.37,4.15,28.23,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_134,Services,45514515,33534205,19599352,18822,Delayed,0.87,2.07,3.24,4.17,19.36,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_135,Retail,16086926,12929971,13553746,15950,Compliant,2.61,0.95,2.84,1.53,16.47,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_136,Logistics,46446524,7081935,17292909,12502,Delayed,2.77,2.75,4.37,4.39,22.68,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_137,Manufacturing,47953472,10363441,19413938,9741,Compliant,2.59,1.42,2.56,3.88,-4.9,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_138,Agriculture,9996563,7089142,17016233,5941,Delayed,2.15,0.56,1.58,2.15,24.37,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_139,Services,30933757,26736263,17192210,4855,Non-Compliant,0.35,2.28,2.38,3.77,13.79,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_140,Retail,14534150,5390961,941768,15166,Delayed,1.45,2.0,4.41,4.81,3.41,77.0,Low Risk,Eligible for growth investment or working capital loan
+SME_141,Manufacturing,46245050,4046804,15132955,19145,Delayed,2.24,1.08,3.16,2.35,22.63,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_142,Manufacturing,32056003,1047296,10228691,5788,Non-Compliant,1.54,1.94,3.06,1.27,22.1,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_143,E-commerce,47958853,3522951,8043846,201,Compliant,3.06,0.82,1.16,4.71,23.83,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_144,Logistics,10821336,27244511,17854157,10561,Non-Compliant,1.29,1.45,3.37,3.06,-5.38,35.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_145,Services,17059100,1200101,465982,16901,Delayed,1.24,2.72,3.4,0.62,28.77,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_146,Retail,41608406,38055044,19315784,7737,Compliant,1.15,0.57,1.5,2.91,28.39,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_147,E-commerce,11250240,44302446,273146,1988,Non-Compliant,1.36,1.28,2.23,2.55,4.3,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_148,Logistics,10303005,23055061,13907579,15441,Compliant,2.08,2.5,1.4,4.29,-7.36,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_149,E-commerce,6597091,23191342,5453174,11737,Compliant,2.56,2.91,1.24,2.7,-3.32,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_150,Agriculture,32238453,22415777,6124152,14256,Non-Compliant,2.42,1.47,0.21,1.35,29.71,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_151,Logistics,47482977,23516992,1164795,7162,Compliant,2.88,1.62,1.35,3.41,12.52,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_152,Logistics,41759524,43307958,9777938,13065,Non-Compliant,3.13,1.8,2.54,2.76,4.26,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_153,Services,8083354,42839798,19454963,14114,Delayed,2.91,2.81,0.11,1.24,1.53,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_154,Logistics,20408425,30955353,13767053,8399,Compliant,0.36,2.6,1.35,2.91,0.28,62.0,Medium Risk,Optimize working capital and control operational costs
+SME_155,E-commerce,39867797,8521757,2409381,5633,Delayed,2.65,0.68,3.98,4.13,16.57,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_156,Logistics,38112325,42371665,13141428,5755,Delayed,0.97,1.42,2.71,0.24,6.78,19.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_157,Services,22968492,36787984,7026492,10825,Compliant,0.73,1.5,2.77,3.19,28.62,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_158,Services,5897662,12220569,11959207,4117,Non-Compliant,2.34,2.41,1.87,1.81,17.35,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_159,Agriculture,16913486,41330951,19720511,1518,Compliant,1.32,1.89,3.08,1.53,21.68,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_160,E-commerce,12106243,22879150,77175,16346,Delayed,0.48,2.03,0.94,2.02,1.71,52.0,Medium Risk,Optimize working capital and control operational costs
+SME_161,Manufacturing,17143948,35231079,11074355,2600,Delayed,0.74,2.99,3.7,1.78,-6.83,17.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_162,Manufacturing,11188727,12831216,18856024,13237,Non-Compliant,0.3,0.41,0.61,4.18,9.51,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_163,Logistics,44342483,16440922,18134669,18579,Compliant,3.19,0.82,2.99,1.45,2.58,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_164,Agriculture,29114327,39371207,19789002,3554,Delayed,0.38,1.34,1.6,3.69,-1.92,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_165,Retail,10328366,9104813,16872244,16193,Delayed,0.97,1.17,3.39,0.56,28.11,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_166,Logistics,2305468,20321696,1558242,19233,Delayed,1.63,0.26,2.52,4.76,7.76,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_167,Agriculture,37482407,29861504,13074362,15253,Non-Compliant,1.44,0.46,2.09,3.15,-3.01,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_168,E-commerce,40410660,14897054,15821133,16194,Delayed,3.22,2.11,0.85,3.56,-2.05,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_169,E-commerce,9014716,11719247,4319453,1742,Delayed,0.43,2.66,2.9,1.56,1.23,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_170,E-commerce,45603150,14313140,5445315,1306,Compliant,1.94,1.64,4.39,2.12,29.97,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_171,E-commerce,12118627,21117501,8552442,3849,Compliant,2.48,1.71,3.73,1.2,0.72,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_172,E-commerce,15543403,7251803,19144771,12360,Delayed,3.28,0.91,0.36,4.67,3.15,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_173,Agriculture,27373516,13445697,9618395,12768,Delayed,2.29,2.35,1.76,2.49,16.37,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_174,Agriculture,6025633,6142533,3012359,13032,Compliant,2.87,2.31,4.17,3.19,1.76,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_175,Services,2744702,24501438,9714177,4195,Non-Compliant,0.57,1.85,2.31,3.7,-1.37,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_176,Manufacturing,20654994,36581576,16072552,18939,Non-Compliant,1.54,0.8,3.01,1.92,-3.65,23.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_177,E-commerce,28195858,30738208,9805436,18689,Non-Compliant,1.5,0.47,4.12,3.63,2.51,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_178,Retail,13420739,3225896,19191381,7619,Non-Compliant,3.14,0.38,3.94,3.41,-5.76,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_179,Agriculture,49782339,38891224,7204776,9280,Non-Compliant,0.78,1.86,2.31,3.56,-9.25,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_180,Retail,8226890,10827148,19986039,2642,Non-Compliant,0.79,2.51,2.03,2.5,22.19,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_181,Retail,23174714,5276872,5051646,9369,Non-Compliant,1.35,2.6,1.59,1.98,-4.48,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_182,Retail,8857956,19797196,3625654,14296,Non-Compliant,0.47,1.5,3.26,1.19,21.04,49.0,Medium Risk,Optimize working capital and control operational costs
+SME_183,Services,42258730,32335646,285711,15438,Compliant,0.88,2.4,1.36,4.14,21.9,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_184,Agriculture,26054173,17898600,9511997,15674,Non-Compliant,3.39,2.85,1.2,3.08,11.52,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_185,Retail,9951337,15499203,17353135,4757,Non-Compliant,1.67,0.97,1.67,2.28,2.39,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_186,E-commerce,23120709,42862817,14689949,2994,Non-Compliant,2.32,1.31,0.88,4.73,-4.2,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_187,Logistics,37440933,16720131,9241354,15226,Delayed,2.62,2.81,3.16,0.33,19.47,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_188,Retail,44422119,3287698,13958719,1271,Compliant,1.47,1.15,2.81,4.27,14.06,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_189,Services,7895350,12817420,422381,1813,Compliant,0.77,2.76,2.22,4.99,16.22,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_190,Agriculture,38642766,4431464,17753649,18845,Compliant,0.96,2.95,1.82,4.45,-9.65,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_191,Services,29188729,20567958,13043156,8475,Non-Compliant,1.3,2.05,4.1,4.07,27.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_192,Retail,42519117,41312236,11059860,4396,Non-Compliant,2.34,2.49,0.23,1.93,-7.35,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_193,Agriculture,24445578,23310282,4900164,9283,Delayed,1.57,2.3,3.48,1.23,4.67,40.0,Medium Risk,Optimize working capital and control operational costs
+SME_194,Logistics,24562169,3287296,9909551,13318,Compliant,0.32,2.16,4.07,3.7,6.11,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_195,Retail,35309996,36691014,13952275,17200,Non-Compliant,1.97,1.06,2.06,1.59,-9.95,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_196,Services,25791709,25133272,6336356,82,Compliant,3.25,0.36,2.52,0.96,9.88,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_197,Manufacturing,30756337,1500500,17178283,1920,Delayed,2.9,1.16,4.26,3.95,20.11,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_198,E-commerce,9430264,22771392,13704180,7817,Delayed,2.94,2.07,1.03,1.63,22.93,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_199,Services,26336512,30836427,460796,11683,Delayed,2.84,0.49,2.39,4.58,25.18,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_200,Agriculture,11173774,2361977,7740616,11336,Compliant,1.34,0.23,2.19,4.22,9.51,83.0,Low Risk,Eligible for growth investment or working capital loan
+SME_201,Retail,32049031,24227142,14503356,15596,Non-Compliant,2.75,0.59,1.24,4.25,15.23,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_202,E-commerce,44494571,4432654,5994376,2093,Non-Compliant,0.76,2.2,3.7,3.88,-6.82,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_203,Retail,36846859,34618900,5858338,12905,Delayed,2.4,2.92,4.06,4.42,9.52,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_204,Agriculture,11809411,23677458,4989904,8367,Non-Compliant,2.35,2.95,3.54,4.05,-3.81,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_205,Retail,39802467,7378140,9392609,5285,Delayed,0.38,1.58,0.96,3.05,4.79,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_206,Manufacturing,38444452,12148768,17089239,10896,Compliant,2.82,2.63,0.48,1.55,3.17,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_207,E-commerce,3181719,14011312,11594207,4937,Delayed,3.19,2.26,2.76,4.45,6.94,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_208,E-commerce,32272452,30118818,6270016,16753,Compliant,1.16,1.6,0.35,4.22,12.87,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_209,Agriculture,18167911,36991531,7320583,18202,Delayed,2.9,1.8,3.06,2.42,26.12,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_210,Manufacturing,46637470,38782858,7822636,18485,Non-Compliant,0.56,0.58,2.43,0.29,5.78,6.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_211,Services,24644880,42055138,3177902,12977,Non-Compliant,2.22,2.83,3.02,3.23,29.25,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_212,Retail,28080296,8779341,17532327,19874,Delayed,1.85,1.19,2.7,0.35,20.36,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_213,Logistics,10188053,43845065,19097931,18163,Non-Compliant,2.05,1.45,1.96,4.64,10.46,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_214,Retail,9387324,40533569,19012021,7674,Non-Compliant,3.26,2.08,0.98,4.81,15.76,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_215,Retail,45584109,44934701,15014061,17748,Non-Compliant,3.09,1.13,1.45,1.03,-5.91,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_216,Services,16363509,2312584,1899054,3676,Compliant,2.81,0.91,2.41,3.41,23.78,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_217,Retail,19553322,20954754,1550184,2426,Non-Compliant,1.18,1.97,2.97,0.55,13.29,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_218,Manufacturing,17091661,17402265,8153113,2962,Compliant,3.22,0.27,3.53,3.67,29.44,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_219,Manufacturing,7075716,15246767,3273523,859,Delayed,0.61,2.22,3.48,1.8,15.46,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_220,E-commerce,2502324,15077441,12007956,12048,Non-Compliant,3.03,1.64,4.38,3.44,23.36,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_221,Agriculture,40316537,34701851,13136003,4138,Non-Compliant,1.35,1.9,1.36,1.93,21.99,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_222,Logistics,46770061,43422964,19547958,2424,Non-Compliant,0.47,1.97,0.41,0.81,3.82,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_223,Retail,40725750,5838684,19547590,10409,Delayed,2.44,1.68,1.62,2.09,0.38,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_224,Retail,17771808,22715019,11434523,4017,Compliant,1.04,1.83,3.37,0.65,7.22,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_225,Services,45688926,36335364,7296405,10451,Compliant,1.08,2.11,2.03,2.93,8.69,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_226,Agriculture,14299990,35609185,14139308,10278,Non-Compliant,1.28,2.31,3.7,0.3,-0.4,9.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_227,Manufacturing,37632658,9193380,8659522,10996,Delayed,0.5,2.24,2.52,2.68,25.78,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_228,Logistics,36481972,10504107,16264021,1134,Delayed,0.87,2.63,4.19,4.44,11.7,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_229,E-commerce,18992846,34525539,17811802,5119,Delayed,0.32,0.73,4.27,4.21,29.14,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_230,Manufacturing,34372840,16464554,6040502,5694,Delayed,1.73,1.32,0.4,4.43,22.4,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_231,Agriculture,42911316,11305942,14319175,4164,Delayed,0.57,2.85,2.11,4.62,12.23,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_232,E-commerce,30875048,2486213,5547094,18730,Compliant,2.48,1.31,2.78,0.61,27.88,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_233,Services,11043305,10702330,3100581,5039,Compliant,1.05,0.55,1.23,0.73,10.19,40.0,Medium Risk,Optimize working capital and control operational costs
+SME_234,Services,26177235,24491050,2661637,14631,Compliant,3.32,1.67,1.89,2.83,25.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_235,Retail,28588632,11599468,3672277,10442,Non-Compliant,3.09,0.51,3.08,4.48,4.33,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_236,Agriculture,20394388,42891924,18861720,8252,Delayed,1.23,0.77,1.1,4.87,5.15,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_237,Logistics,43327417,35953686,12545745,17721,Non-Compliant,2.81,3.0,2.75,0.33,6.73,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_238,E-commerce,23581896,38999274,10643344,17568,Delayed,2.87,1.72,3.17,1.84,11.87,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_239,Manufacturing,21512258,32882294,3021372,1551,Compliant,3.46,1.0,0.5,1.14,12.14,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_240,Agriculture,32899934,26553295,16077579,12625,Non-Compliant,2.21,2.99,2.29,3.8,9.86,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_241,Agriculture,35953171,29819310,10776837,1629,Compliant,0.56,2.91,1.26,3.24,2.24,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_242,Services,26895160,38110964,4854042,17910,Delayed,2.37,1.43,3.29,0.69,27.09,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_243,Retail,18294649,32206587,19248594,1361,Delayed,2.3,0.93,0.93,2.47,13.54,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_244,Retail,5161029,6992910,14503291,4370,Delayed,2.34,2.55,4.03,3.46,6.31,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_245,E-commerce,11649697,39515544,3830121,5283,Compliant,1.28,2.2,2.0,3.92,16.05,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_246,Services,14257649,22560074,11951552,7610,Delayed,3.05,2.12,0.97,0.2,20.72,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_247,Agriculture,13927105,22194866,13838428,10558,Compliant,3.37,2.7,2.03,4.46,28.43,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_248,Logistics,38910879,41864131,18130540,14924,Non-Compliant,1.0,2.13,1.9,2.89,9.98,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_249,Services,25646282,34212949,3372455,14839,Delayed,0.58,0.99,1.99,4.08,-5.52,49.0,Medium Risk,Optimize working capital and control operational costs
+SME_250,E-commerce,7357658,30715282,4268173,11949,Delayed,0.92,2.14,2.68,4.06,7.63,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_251,E-commerce,28415002,33345953,6034722,10626,Delayed,2.93,1.06,2.39,1.03,9.16,64.0,Medium Risk,Optimize working capital and control operational costs
+SME_252,Services,1496530,43700173,9258415,1993,Non-Compliant,2.47,2.33,0.76,0.64,25.88,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_253,E-commerce,19878839,6828540,16611127,869,Delayed,2.34,1.94,0.39,3.63,5.79,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_254,Services,40285651,34659907,4070028,1014,Compliant,1.59,0.42,3.31,0.87,28.13,64.0,Medium Risk,Optimize working capital and control operational costs
+SME_255,Manufacturing,11792148,29505135,11053104,10103,Compliant,2.15,1.64,2.56,4.26,9.41,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_256,Services,37419127,32439284,11260784,16986,Delayed,1.29,1.16,1.68,3.66,28.95,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_257,Services,13466064,15960243,1369277,12013,Delayed,1.83,1.12,3.66,4.22,-9.67,46.0,Medium Risk,Optimize working capital and control operational costs
+SME_258,E-commerce,11080030,33603868,749971,690,Non-Compliant,2.84,1.89,1.81,1.57,25.95,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_259,E-commerce,31699893,26817902,15711072,16873,Non-Compliant,3.44,1.1,3.6,1.65,27.24,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_260,Retail,6286265,4738843,12554841,10748,Non-Compliant,3.28,2.38,1.45,3.39,28.44,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_261,Retail,41541777,34378658,8222502,8024,Delayed,3.29,0.4,0.42,0.25,-9.48,34.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_262,Manufacturing,31799028,12456199,4460276,16678,Non-Compliant,1.59,2.05,4.2,3.66,-3.13,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_263,Retail,26961126,4517923,7456688,5488,Non-Compliant,1.8,2.47,1.84,4.2,16.15,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_264,Services,29668464,40258177,19010922,11035,Compliant,2.56,2.08,3.59,2.13,-8.98,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_265,E-commerce,34624883,30460464,8874365,19296,Non-Compliant,3.25,1.59,1.33,3.85,-7.46,94.0,Low Risk,Eligible for growth investment or working capital loan
+SME_266,Retail,25685640,34653388,18831592,18257,Compliant,0.75,2.86,2.94,0.96,-1.16,23.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_267,Retail,35021776,31749379,17962327,12855,Compliant,1.27,1.04,3.94,1.68,10.5,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_268,Manufacturing,45298099,29846493,4961828,19642,Non-Compliant,0.75,0.25,0.28,4.87,11.84,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_269,Agriculture,36466581,40233034,14226224,2817,Compliant,2.26,1.41,3.75,4.93,-8.63,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_270,Manufacturing,5898869,40097758,19170135,4458,Delayed,1.28,0.29,2.61,2.61,-3.19,29.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_271,Services,31529723,575211,1500948,5307,Delayed,1.34,2.87,2.77,4.68,9.99,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_272,E-commerce,16905566,41474249,6327090,8933,Non-Compliant,0.53,0.79,2.4,2.66,13.76,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_273,Manufacturing,9927504,12881574,19185846,18425,Delayed,1.42,2.41,3.95,1.53,-4.06,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_274,Retail,12186214,41367052,5837196,17063,Compliant,3.06,2.37,0.29,1.41,5.95,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_275,E-commerce,7522336,25831622,15226559,10659,Delayed,1.05,0.81,1.25,4.65,26.18,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_276,E-commerce,20155820,21068329,2702994,5738,Non-Compliant,2.52,1.94,3.95,0.94,29.96,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_277,Retail,29246717,28586921,5557805,5668,Non-Compliant,2.31,0.33,3.41,2.94,29.49,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_278,Manufacturing,21605074,42498723,4902444,14427,Compliant,3.06,1.55,0.18,2.82,25.27,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_279,Retail,29622426,11792083,16969728,7697,Non-Compliant,0.72,0.24,2.37,3.72,5.79,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_280,Agriculture,12985559,38685173,14163986,16446,Delayed,3.43,2.78,2.43,2.55,17.46,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_281,E-commerce,32408562,39559558,5845447,7829,Non-Compliant,2.16,2.93,1.86,1.43,6.66,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_282,Logistics,24710749,14352821,13293556,10751,Compliant,3.49,0.82,1.41,0.93,15.94,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_283,Logistics,9152831,14794752,1549420,13450,Non-Compliant,3.22,0.78,3.1,3.14,2.38,77.0,Low Risk,Eligible for growth investment or working capital loan
+SME_284,Services,14191164,35409897,11737532,7352,Delayed,1.01,2.31,1.01,3.62,14.25,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_285,Retail,23261900,12981422,14937388,13516,Compliant,0.48,0.91,3.62,2.89,10.95,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_286,Retail,12207868,11498252,8312934,8326,Delayed,1.12,2.71,3.63,3.72,-9.02,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_287,Services,14746173,34166262,3900379,3644,Compliant,1.99,1.81,1.93,0.79,21.63,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_288,Services,36748719,29128437,3804409,8003,Non-Compliant,0.85,1.18,1.35,4.42,-9.52,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_289,Services,10555079,39941461,11353540,3278,Compliant,0.84,2.53,1.35,2.95,1.73,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_290,E-commerce,40566066,40471048,6722055,7296,Compliant,1.78,1.58,2.22,0.72,-9.76,12.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_291,Agriculture,14281009,38710408,15056024,3074,Non-Compliant,0.41,2.75,3.27,2.36,5.05,46.0,Medium Risk,Optimize working capital and control operational costs
+SME_292,Retail,43031405,26087822,15414106,13261,Delayed,0.69,2.8,1.68,4.24,-7.47,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_293,E-commerce,47462034,7297673,9035949,11173,Non-Compliant,1.63,0.66,2.78,4.5,26.54,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_294,Services,1203662,12848727,18298198,8312,Compliant,0.5,0.21,1.78,1.4,6.63,26.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_295,Retail,38146529,20923385,6281646,1637,Non-Compliant,1.57,2.96,1.44,3.59,8.38,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_296,E-commerce,14269205,6402296,6426288,13652,Compliant,1.82,2.74,0.21,0.59,3.99,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_297,Agriculture,14513403,40764615,9590446,5103,Non-Compliant,1.74,0.36,0.12,0.26,15.1,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_298,E-commerce,44042641,18952983,18941779,17028,Non-Compliant,3.08,2.53,1.1,2.85,21.38,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_299,Agriculture,40148899,41938255,5281091,2032,Delayed,2.0,1.48,1.89,3.5,15.93,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_300,Services,43677856,42327728,4408285,2761,Compliant,1.8,0.93,3.85,4.0,19.93,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_301,Agriculture,27291175,11118361,14945952,15195,Delayed,1.61,2.66,3.61,1.77,26.24,94.0,Low Risk,Eligible for growth investment or working capital loan
+SME_302,Retail,10853564,24645082,13363838,18452,Compliant,2.92,0.75,1.28,0.13,24.54,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_303,Services,37503110,22671555,8012369,16625,Non-Compliant,3.16,2.85,1.18,2.45,16.96,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_304,Retail,14442402,39832241,16481938,2668,Compliant,3.03,0.78,1.1,0.18,-1.41,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_305,Logistics,29176873,43840658,11044590,14638,Delayed,2.46,1.92,1.59,0.55,15.51,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_306,Manufacturing,22488809,32286947,11633575,15954,Delayed,0.74,0.82,2.29,1.7,10.24,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_307,Agriculture,29729010,8402619,5059667,17186,Delayed,1.19,1.73,2.03,2.24,18.69,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_308,Manufacturing,14993549,8067857,8090736,12356,Compliant,0.45,2.12,1.06,1.47,23.32,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_309,Manufacturing,47544769,4828690,2985696,195,Delayed,3.28,0.73,0.67,2.95,19.71,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_310,Agriculture,11169435,39393865,8826233,2187,Delayed,2.41,1.66,0.16,0.37,23.86,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_311,Services,17142016,9289782,3301106,11707,Delayed,2.69,1.51,0.78,0.81,-7.45,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_312,Logistics,42424694,36836209,13781646,2330,Non-Compliant,1.3,0.4,3.2,3.51,-8.74,27.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_313,Retail,44228950,4096176,18149286,3606,Non-Compliant,3.01,2.49,1.17,0.8,0.34,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_314,E-commerce,33222310,11132002,19370942,60,Compliant,1.13,1.14,2.16,3.23,26.03,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_315,Retail,11984508,42854123,10930625,14387,Compliant,0.31,1.81,2.7,0.37,22.95,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_316,E-commerce,7949607,15097697,9958665,3927,Delayed,1.5,1.64,4.0,2.1,17.31,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_317,Retail,49767520,18189600,9249677,6296,Non-Compliant,2.13,1.64,4.01,0.97,18.03,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_318,Agriculture,21320280,18044180,14102737,13622,Delayed,1.83,0.5,3.38,0.64,19.07,46.0,Medium Risk,Optimize working capital and control operational costs
+SME_319,Logistics,14339094,8837712,13737336,14125,Delayed,3.06,1.39,0.25,2.88,27.7,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_320,E-commerce,17201250,28622101,14477978,2591,Non-Compliant,0.64,1.47,2.63,4.65,23.29,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_321,Services,37492982,34818095,17247745,12127,Non-Compliant,2.07,2.25,3.56,0.37,14.94,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_322,Retail,576218,6183182,16938661,15748,Non-Compliant,1.94,2.55,0.18,2.17,16.63,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_323,Retail,24156190,13547590,3834242,6121,Compliant,1.2,1.73,2.52,3.57,-1.45,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_324,E-commerce,18047260,29965896,11671439,1200,Compliant,2.93,0.44,3.87,2.37,16.29,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_325,Services,6079079,1606861,6494503,15721,Delayed,2.71,0.86,2.19,4.05,6.99,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_326,Services,44989781,30531276,16725072,19238,Compliant,2.65,0.66,0.12,0.98,-3.88,52.0,Medium Risk,Optimize working capital and control operational costs
+SME_327,Agriculture,48372760,3519612,684029,11087,Non-Compliant,3.1,0.55,0.15,4.8,22.26,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_328,Agriculture,13561358,5336600,5337355,6972,Non-Compliant,2.61,1.22,1.93,1.99,10.41,83.0,Low Risk,Eligible for growth investment or working capital loan
+SME_329,Agriculture,30322180,15048065,15206634,136,Compliant,1.04,0.84,0.78,1.77,29.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_330,Agriculture,29145954,38690751,6981440,17413,Delayed,2.56,0.81,3.02,4.39,1.27,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_331,Agriculture,42790779,14560134,3999694,15346,Delayed,1.28,0.35,3.22,2.86,9.23,52.0,Medium Risk,Optimize working capital and control operational costs
+SME_332,Agriculture,16854286,33233108,16684388,18978,Compliant,1.07,0.25,0.88,2.63,7.92,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_333,Logistics,9360935,17434897,14324285,661,Delayed,0.53,0.49,4.01,3.66,-5.17,17.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_334,Services,24944321,22806697,16986160,2472,Delayed,2.68,0.68,2.04,2.94,7.04,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_335,Agriculture,36749378,27564021,11214102,86,Delayed,2.58,1.41,0.73,0.9,1.5,62.0,Medium Risk,Optimize working capital and control operational costs
+SME_336,Services,38283647,36009212,18138519,10704,Non-Compliant,1.05,1.63,3.46,3.4,-3.59,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_337,Services,19199351,25168424,16553464,6219,Non-Compliant,2.7,0.59,3.58,0.75,1.29,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_338,Manufacturing,15605101,21600624,7964443,16322,Compliant,3.24,1.39,2.91,4.05,-0.67,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_339,Logistics,41076287,1242186,19671316,14749,Non-Compliant,0.65,1.16,3.86,4.95,19.36,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_340,Agriculture,43342925,29953638,1197162,6968,Delayed,1.04,0.71,3.34,1.95,-8.77,1.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_341,Retail,9497354,14978363,1046161,19157,Non-Compliant,2.7,0.22,3.98,2.28,14.7,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_342,E-commerce,41406639,27059117,4688482,13596,Compliant,1.18,1.51,2.01,0.33,20.43,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_343,Retail,28668643,44894354,8348022,1700,Non-Compliant,2.3,2.12,3.39,0.17,9.23,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_344,Logistics,30177043,41070787,14911560,2700,Delayed,0.56,0.83,4.5,4.61,27.26,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_345,E-commerce,2462165,24403801,6983604,11821,Delayed,1.75,0.57,3.29,0.73,18.32,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_346,Logistics,8485620,39493349,10168293,18031,Compliant,2.67,2.68,0.6,2.28,19.92,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_347,Services,1111213,1524905,18674717,5520,Non-Compliant,2.5,0.97,2.38,4.1,-2.12,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_348,E-commerce,49849430,37060390,4754619,11510,Non-Compliant,2.91,0.83,2.68,4.46,21.09,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_349,Services,25027791,30455020,6465377,3687,Non-Compliant,3.11,2.6,0.87,2.65,23.28,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_350,Retail,38295793,5959277,6129439,16980,Delayed,2.77,2.49,4.34,2.87,4.45,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_351,Retail,35893865,32755047,9061826,8837,Compliant,2.45,1.46,0.87,3.38,-1.47,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_352,E-commerce,32212006,20435300,4902059,14955,Non-Compliant,0.4,1.57,0.88,4.81,5.4,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_353,E-commerce,7069632,15715296,11049806,11281,Delayed,2.01,0.81,4.13,3.05,19.58,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_354,Agriculture,20949430,8993059,6607912,13917,Delayed,0.42,0.42,2.15,2.84,6.71,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_355,Logistics,19303796,19157506,5573694,4757,Delayed,2.89,1.81,0.38,0.17,19.47,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_356,Agriculture,47346098,32960480,17496623,13045,Non-Compliant,1.33,0.48,2.73,0.5,-5.46,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_357,Logistics,41561756,34357754,19315359,8912,Non-Compliant,2.1,1.46,2.75,2.93,22.24,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_358,Agriculture,6702258,33818214,17115129,4733,Non-Compliant,1.19,2.83,0.38,4.69,0.13,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_359,Services,21616451,30137667,12304378,7081,Non-Compliant,2.8,2.87,4.38,4.35,-0.04,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_360,E-commerce,10380860,21488012,17106037,8690,Non-Compliant,3.14,0.87,2.49,4.91,13.62,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_361,Retail,4026737,15152304,10569315,1673,Non-Compliant,1.58,1.95,2.56,2.69,-7.2,44.0,Medium Risk,Optimize working capital and control operational costs
+SME_362,Logistics,9290529,16455099,10089851,14318,Non-Compliant,3.06,1.53,2.39,3.96,-8.95,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_363,Logistics,19286176,22358273,3887008,11171,Non-Compliant,1.15,2.65,2.79,4.22,0.44,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_364,Retail,21732430,15352964,10200983,13545,Non-Compliant,2.01,0.96,1.26,3.28,11.52,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_365,Agriculture,33746730,32318507,16616737,11803,Delayed,3.05,0.21,1.36,1.76,26.3,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_366,Logistics,40973321,38032148,12016055,2294,Non-Compliant,1.34,0.66,2.35,2.4,23.86,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_367,Services,20653729,24118663,6725275,3630,Compliant,3.35,1.18,3.65,4.3,9.62,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_368,E-commerce,16323554,22214501,3615652,15093,Delayed,0.69,1.08,0.32,1.56,-8.52,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_369,Retail,13290902,44433585,8457411,16530,Non-Compliant,0.36,2.42,2.75,4.63,11.41,94.0,Low Risk,Eligible for growth investment or working capital loan
+SME_370,E-commerce,10973867,35863234,17584960,14453,Compliant,3.19,2.11,3.65,1.23,18.19,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_371,Logistics,11364147,7734901,9137344,12174,Non-Compliant,0.52,1.04,0.79,3.77,3.57,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_372,Logistics,6693956,16435897,5720622,3453,Compliant,3.47,1.48,0.17,3.19,-5.56,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_373,Retail,14079173,21346178,16455442,4507,Compliant,3.34,0.47,1.48,3.77,1.14,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_374,Services,35759647,12532693,8634012,10602,Compliant,0.74,2.71,2.69,2.24,20.86,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_375,Manufacturing,22714365,23867137,6933705,5628,Compliant,2.02,2.82,0.71,4.67,4.05,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_376,Retail,15029416,42337622,16794513,8328,Delayed,0.89,2.94,1.97,3.2,22.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_377,Manufacturing,7771476,15331115,17565659,15534,Delayed,1.67,2.63,2.53,1.51,2.78,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_378,Agriculture,3766402,24405377,13151214,19744,Compliant,0.5,0.69,2.74,3.23,-3.46,29.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_379,Manufacturing,47544083,15729893,6010334,19389,Non-Compliant,1.02,0.33,1.31,1.51,7.43,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_380,Services,25399065,38420566,11415002,3552,Compliant,1.46,1.82,1.86,1.54,8.09,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_381,Agriculture,21386096,23784179,14512253,16402,Delayed,1.7,2.76,3.52,2.06,-9.36,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_382,Manufacturing,39554025,10493205,9615754,2242,Non-Compliant,3.43,0.7,4.24,4.28,-5.32,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_383,Agriculture,14572989,19728547,14557759,14665,Delayed,2.89,0.22,3.89,2.55,-2.6,40.0,Medium Risk,Optimize working capital and control operational costs
+SME_384,Manufacturing,13626263,37082180,18110788,5097,Delayed,2.66,2.46,2.58,3.43,-5.46,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_385,Services,4761946,15122892,9004471,8640,Non-Compliant,2.02,0.42,1.91,2.02,3.66,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_386,Manufacturing,17367309,43178076,15723723,1948,Compliant,2.99,1.36,1.57,1.39,28.58,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_387,Manufacturing,10444790,11158430,3765056,5618,Compliant,1.39,2.1,0.65,4.78,10.37,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_388,Manufacturing,13300127,21178286,15877150,4236,Compliant,2.57,0.86,0.57,3.06,15.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_389,Retail,44446719,20061007,3325315,1920,Compliant,3.48,0.44,3.13,4.68,4.26,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_390,Retail,14838768,14263529,14161520,11169,Non-Compliant,1.31,2.36,1.24,1.1,2.94,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_391,Retail,2232465,12969021,14067121,4188,Non-Compliant,2.46,1.96,1.22,0.82,-9.07,38.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_392,Services,29896082,3896605,5217092,12207,Non-Compliant,3.0,2.97,4.49,4.29,10.01,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_393,Agriculture,13609773,40370870,8264605,238,Delayed,3.23,1.16,0.93,3.44,9.34,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_394,Logistics,31904552,26871311,17606007,204,Non-Compliant,2.6,0.37,0.75,1.01,-3.69,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_395,Manufacturing,45099847,5711499,3820887,10799,Compliant,1.21,2.26,0.53,1.42,20.57,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_396,Manufacturing,49230049,16813328,2846274,5552,Delayed,1.34,1.66,2.65,4.02,9.71,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_397,Services,36913676,17485839,13228106,4927,Compliant,0.37,0.8,2.86,2.32,3.56,27.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_398,Manufacturing,34377350,37601803,12784172,11164,Compliant,2.73,2.39,1.71,3.39,-4.12,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_399,Retail,19523125,26756226,5988099,4390,Non-Compliant,0.44,0.77,2.46,1.66,12.09,39.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_400,Logistics,29728266,23175439,16159082,19071,Non-Compliant,3.07,0.93,3.57,1.97,20.11,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_401,E-commerce,616739,32725149,376794,15641,Compliant,0.68,0.46,3.7,4.95,1.28,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_402,Manufacturing,31751097,1547116,16213225,6160,Compliant,0.85,1.32,4.31,1.31,-1.25,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_403,Retail,43729625,37727195,3033349,15810,Delayed,1.82,1.37,3.73,2.58,10.88,64.0,Medium Risk,Optimize working capital and control operational costs
+SME_404,E-commerce,43223356,23655666,14930164,5126,Non-Compliant,2.66,1.64,2.59,4.24,-3.79,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_405,Logistics,16485249,19303669,782877,816,Delayed,0.74,2.19,0.89,1.27,16.66,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_406,E-commerce,29200374,35225732,7068132,13414,Delayed,1.71,2.74,0.54,2.13,14.21,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_407,Retail,49071172,12448339,13784612,192,Delayed,1.85,0.59,0.34,3.11,-6.52,64.0,Medium Risk,Optimize working capital and control operational costs
+SME_408,Agriculture,12378474,22415847,11999401,18160,Compliant,0.98,0.35,3.03,2.46,-8.54,8.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_409,Agriculture,43809893,13176695,6299492,3645,Delayed,0.67,0.25,3.65,2.35,14.81,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_410,E-commerce,35069361,37796843,5928643,12816,Delayed,2.98,0.6,2.34,1.88,1.77,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_411,Services,36474996,40264640,11469585,6314,Compliant,1.91,2.04,0.34,2.97,-6.54,77.0,Low Risk,Eligible for growth investment or working capital loan
+SME_412,E-commerce,11471177,23304980,9724700,18172,Non-Compliant,0.35,2.24,2.46,3.16,20.38,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_413,Manufacturing,36707525,30667797,850350,7374,Non-Compliant,2.87,2.4,4.22,3.3,2.56,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_414,Manufacturing,20580673,28970055,13515389,3700,Delayed,3.44,0.88,2.73,0.44,8.38,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_415,Agriculture,31866160,23036262,11593836,10655,Compliant,2.24,1.06,3.66,3.19,-0.53,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_416,Services,46865848,23211423,8556255,15129,Non-Compliant,1.91,1.55,3.62,4.77,15.09,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_417,Retail,7444121,12054304,19110895,9359,Delayed,3.11,0.38,4.2,2.75,2.06,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_418,Manufacturing,6738795,29770827,435477,3893,Delayed,3.35,1.91,3.49,3.6,28.72,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_419,Agriculture,14657398,3741861,10072131,6811,Compliant,2.71,2.95,3.39,2.83,18.12,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_420,Logistics,47726729,13516915,15232068,9288,Delayed,1.73,1.21,1.13,4.29,-4.53,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_421,Agriculture,40845400,24536417,5651944,19063,Non-Compliant,2.2,2.31,0.36,4.65,6.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_422,Manufacturing,4251198,3015804,4327308,504,Compliant,2.54,1.6,2.38,1.0,5.42,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_423,Manufacturing,16232903,21489933,11348641,9813,Non-Compliant,0.92,0.56,0.65,2.24,11.37,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_424,Agriculture,3638145,35936675,18358636,14671,Non-Compliant,1.73,1.83,4.33,2.02,23.68,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_425,Retail,29563435,27257952,17563477,10738,Non-Compliant,2.96,1.04,1.38,2.09,13.34,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_426,E-commerce,35280908,37368086,11217238,11186,Delayed,2.4,0.3,3.85,0.72,-7.54,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_427,Manufacturing,38238488,3670209,12633010,6773,Delayed,1.62,1.98,1.81,4.09,16.22,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_428,Agriculture,43015252,25781224,19856258,3816,Non-Compliant,2.42,2.61,1.52,0.28,-9.67,32.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_429,Agriculture,15516390,41278420,6538655,717,Non-Compliant,0.68,1.17,4.21,2.69,21.2,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_430,Services,46861481,11445633,12713456,11676,Compliant,1.58,1.29,1.7,3.34,16.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_431,E-commerce,35555276,20501880,19854315,4434,Compliant,2.84,2.69,1.82,1.12,2.35,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_432,Logistics,43372208,30152264,2844180,17042,Delayed,1.01,2.48,0.57,4.54,1.7,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_433,Retail,35454715,42165312,11010186,5057,Delayed,0.9,2.2,3.05,4.21,21.93,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_434,Logistics,23204829,37548490,12976486,4994,Compliant,3.34,0.9,1.37,2.41,21.33,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_435,E-commerce,14642073,27701043,15148530,4234,Non-Compliant,0.97,2.75,2.68,2.11,4.09,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_436,E-commerce,1191757,42072086,5066112,3764,Delayed,1.13,0.63,2.7,1.26,1.96,19.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_437,E-commerce,890719,21389593,10061403,11181,Non-Compliant,3.4,1.95,3.26,3.68,12.39,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_438,Logistics,43970977,29796163,8950668,4637,Compliant,2.65,0.28,3.38,0.75,-9.67,1.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_439,E-commerce,43592987,633782,5301358,2104,Delayed,2.54,2.0,2.36,3.43,-6.69,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_440,Agriculture,24131669,24083333,18283361,9447,Delayed,3.03,0.98,1.56,4.23,-4.95,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_441,Logistics,16213642,21986325,19425418,10674,Compliant,0.67,1.46,3.78,1.22,-2.58,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_442,E-commerce,20573266,33827797,17970147,18991,Delayed,2.56,1.17,1.46,4.35,10.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_443,Agriculture,40881731,17903547,14350770,8385,Compliant,1.91,0.68,2.33,0.26,29.69,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_444,Services,23525010,33363684,4889084,11999,Delayed,2.95,1.94,1.87,4.57,16.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_445,E-commerce,47633465,2194291,7133456,3719,Compliant,1.93,2.67,3.86,0.68,-7.55,12.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_446,Logistics,25194812,23530601,871522,2581,Delayed,2.28,2.89,2.0,3.26,11.02,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_447,Manufacturing,38957098,5352075,15523665,18949,Non-Compliant,1.83,0.74,1.8,1.33,9.87,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_448,E-commerce,32470599,37853038,14855831,2763,Non-Compliant,1.83,2.21,3.14,4.2,-4.23,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_449,Manufacturing,40287171,28548272,14916345,5991,Non-Compliant,2.76,2.06,2.75,2.61,26.81,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_450,Agriculture,1770896,30427817,2181906,10531,Delayed,2.31,1.16,0.57,0.76,7.63,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_451,Services,12452314,36832549,18277350,19790,Delayed,2.33,0.25,2.34,2.9,29.78,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_452,Retail,1559622,21658833,19382100,11064,Non-Compliant,1.74,2.13,3.34,2.1,6.8,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_453,Services,4922375,13070380,1705243,11312,Non-Compliant,2.0,2.85,4.47,3.34,14.32,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_454,E-commerce,17270274,24551842,4274692,4780,Compliant,2.69,1.97,2.87,4.42,-5.81,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_455,Manufacturing,31854977,10831645,17016995,4177,Compliant,2.94,1.42,1.73,2.11,8.17,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_456,Manufacturing,26374486,13174615,2975605,15169,Compliant,2.53,1.67,1.1,1.52,-0.45,66.0,Medium Risk,Optimize working capital and control operational costs
+SME_457,Logistics,32373646,5687913,5099154,6476,Non-Compliant,3.26,0.76,3.94,0.17,23.42,66.0,Medium Risk,Optimize working capital and control operational costs
+SME_458,Manufacturing,4631479,37687581,13277247,18988,Non-Compliant,2.93,2.3,3.68,2.92,21.36,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_459,Logistics,43455157,11876429,13763700,2382,Non-Compliant,2.1,2.29,1.13,2.07,22.97,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_460,Agriculture,18909209,39271173,14573834,16915,Compliant,2.45,0.61,0.98,1.94,18.94,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_461,Retail,37405710,3204802,8152885,12508,Delayed,3.26,2.66,3.25,1.0,23.31,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_462,E-commerce,25255666,38111695,9176748,634,Non-Compliant,2.28,0.95,1.49,2.21,-1.97,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_463,Logistics,6203394,38442630,11947147,11996,Delayed,2.94,2.95,1.45,4.92,8.08,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_464,Retail,20045578,33918515,15773429,14162,Delayed,2.5,1.27,0.77,1.56,17.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_465,Manufacturing,11915376,27179149,6216074,16386,Delayed,2.07,0.7,1.26,3.04,15.5,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_466,Manufacturing,9568026,12401352,10511846,14005,Compliant,1.07,1.18,1.98,3.9,18.65,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_467,Retail,13783692,43469838,13114884,8397,Delayed,1.66,1.43,3.32,3.77,-1.03,60.0,Medium Risk,Optimize working capital and control operational costs
+SME_468,Manufacturing,26780417,31619362,4588727,12327,Non-Compliant,3.4,0.39,1.58,1.71,-6.06,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_469,Agriculture,23208377,7484609,10007571,14394,Compliant,2.4,1.82,1.55,3.09,26.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_470,Agriculture,24067809,32402177,8978989,2890,Non-Compliant,2.11,1.87,1.35,4.37,12.41,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_471,Retail,3221864,21292578,13792249,10858,Non-Compliant,3.29,2.27,2.2,0.18,-3.85,45.0,Medium Risk,Optimize working capital and control operational costs
+SME_472,Logistics,33958471,10491985,3683909,8026,Compliant,2.18,0.28,0.89,2.24,21.74,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_473,Logistics,41039152,18429773,1539600,3306,Non-Compliant,1.98,1.72,2.24,1.2,26.6,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_474,Retail,28604320,29864339,16319346,897,Non-Compliant,2.73,0.35,3.2,2.0,-3.22,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_475,Logistics,48244216,1890687,7465106,9277,Compliant,2.58,2.16,0.23,2.14,22.7,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_476,Logistics,8233308,43266200,19004719,9471,Non-Compliant,0.92,0.36,0.14,3.76,27.33,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_477,Agriculture,4375754,32718232,19847987,14896,Delayed,1.81,2.75,0.43,0.56,27.53,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_478,Logistics,19982215,11736501,17920863,15240,Non-Compliant,1.81,2.17,2.46,2.61,26.57,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_479,Services,28660024,5672864,12000254,14683,Delayed,1.51,1.62,3.86,2.86,11.86,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_480,E-commerce,28856738,4188963,1416953,670,Non-Compliant,1.96,1.44,0.12,2.52,4.25,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_481,Manufacturing,11412996,11940237,19471461,17889,Compliant,1.62,0.57,4.22,3.69,-9.71,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_482,Services,10547595,33199055,421280,11767,Compliant,0.94,1.01,0.57,1.98,-7.56,33.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_483,Logistics,31408587,5585773,909245,13006,Non-Compliant,1.62,2.63,3.8,4.73,7.15,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_484,Agriculture,28503805,13128700,17118423,15768,Compliant,0.53,2.73,2.22,2.46,5.97,62.0,Medium Risk,Optimize working capital and control operational costs
+SME_485,Retail,23064965,22009907,15993238,16633,Non-Compliant,2.14,0.2,3.0,2.9,-2.61,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_486,Logistics,40631083,11421186,16011662,1892,Compliant,3.03,1.86,2.35,4.15,5.82,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_487,Agriculture,7367218,34923048,18007962,3439,Delayed,2.62,2.21,2.2,1.45,-3.01,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_488,E-commerce,9504644,25091736,14873290,2854,Non-Compliant,1.45,1.93,3.77,0.47,23.95,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_489,Logistics,45834458,43593996,592632,11577,Delayed,0.58,0.43,3.43,3.57,1.93,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_490,Retail,48017690,35444468,12425714,11763,Delayed,0.95,0.81,2.23,2.47,13.94,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_491,Agriculture,39042128,24762375,16439220,11618,Non-Compliant,2.05,0.9,0.59,4.49,10.11,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_492,Agriculture,38139184,41133588,17939405,8235,Delayed,0.96,2.53,0.61,4.92,-7.92,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_493,Agriculture,13643608,44152417,12259034,19996,Non-Compliant,2.04,1.5,3.63,2.06,27.69,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_494,E-commerce,37032022,26631747,5730385,2618,Delayed,1.04,1.56,2.43,2.14,11.09,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_495,Logistics,24876816,44063896,2381486,3163,Non-Compliant,3.02,2.82,2.22,2.1,3.0,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_496,E-commerce,37351723,43307203,13814531,2942,Non-Compliant,1.57,1.98,3.09,1.69,-3.67,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_497,Manufacturing,46245469,8304428,8168326,1925,Compliant,1.09,2.72,3.88,3.93,3.54,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_498,Manufacturing,22171503,11801147,12550508,2972,Non-Compliant,2.9,1.48,2.87,3.82,-9.18,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_499,Logistics,36545138,2722523,16902654,11705,Non-Compliant,1.4,0.62,3.46,2.45,4.54,38.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_500,E-commerce,42101684,26779085,10305651,10640,Delayed,0.66,2.8,3.47,0.32,11.26,31.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_501,Retail,39308656,5146771,13605804,10966,Non-Compliant,2.13,1.48,1.67,1.62,24.87,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_502,Agriculture,11380726,9040145,7085904,17374,Compliant,2.16,0.71,1.31,1.53,17.49,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_503,Agriculture,23492356,33465406,13824880,11138,Delayed,2.59,1.05,3.63,4.07,-5.54,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_504,Logistics,21015189,1264645,6699744,18196,Delayed,1.07,0.34,1.76,0.53,-4.09,2.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_505,Manufacturing,23888869,1828127,10587999,15935,Compliant,1.72,1.51,4.07,4.05,7.12,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_506,Manufacturing,22189432,9259690,2801445,13145,Delayed,1.2,2.59,0.41,3.38,-2.17,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_507,Agriculture,26441259,44264317,12913082,489,Delayed,0.56,2.81,0.36,3.69,-8.89,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_508,Logistics,11063214,38209281,11252748,11748,Delayed,3.11,2.81,4.18,2.22,22.2,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_509,E-commerce,24874842,41529019,11953070,19275,Delayed,2.63,0.55,2.95,3.43,-9.22,48.0,Medium Risk,Optimize working capital and control operational costs
+SME_510,Manufacturing,14643385,23692566,6839789,3516,Compliant,1.26,1.27,1.77,3.08,23.23,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_511,E-commerce,20775688,8736900,8570556,19724,Compliant,2.22,0.28,3.42,3.87,-4.24,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_512,Manufacturing,28672140,18792993,19360030,6410,Delayed,0.94,2.59,3.06,2.29,28.99,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_513,Manufacturing,35619150,29070729,14994127,53,Delayed,3.15,1.2,2.44,2.42,14.15,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_514,Services,11023401,37467096,1206751,18959,Compliant,0.67,1.97,0.54,3.25,19.4,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_515,Manufacturing,44045615,1373181,953692,16999,Compliant,0.31,2.2,3.67,0.63,-5.58,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_516,Retail,14988262,18668849,16994986,5944,Compliant,1.91,1.4,3.91,2.24,24.48,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_517,Logistics,37867702,43876894,16272265,7404,Delayed,2.17,1.06,0.86,4.86,23.57,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_518,Logistics,38860857,32763575,6969129,954,Delayed,2.15,2.89,3.84,0.28,16.12,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_519,E-commerce,23887092,2461774,10825853,10625,Non-Compliant,0.47,2.9,3.96,1.65,10.09,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_520,Manufacturing,19656053,36744790,16515348,1629,Compliant,1.3,1.01,2.52,1.64,18.86,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_521,Retail,40178201,21037778,18567224,10973,Delayed,1.9,1.54,2.99,3.2,-9.76,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_522,E-commerce,2024102,7376610,18603741,6859,Compliant,0.99,2.92,1.78,0.62,13.7,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_523,Services,12079149,6610715,4513070,8841,Delayed,3.09,0.21,1.34,3.18,23.9,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_524,E-commerce,48378478,27888445,10570521,10539,Compliant,0.58,1.36,3.28,0.57,4.28,7.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_525,E-commerce,43107220,31735282,1478768,12682,Delayed,1.86,0.48,3.89,0.57,-5.67,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_526,Manufacturing,2535848,25703302,16641511,3278,Non-Compliant,2.51,1.63,2.98,3.67,6.84,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_527,Services,22400146,20420303,9953821,18945,Non-Compliant,1.14,0.27,2.35,1.69,19.08,60.0,Medium Risk,Optimize working capital and control operational costs
+SME_528,E-commerce,11328463,18086927,15008832,6539,Compliant,2.3,1.34,0.8,4.89,-5.71,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_529,Retail,25870439,37666016,402980,16754,Delayed,2.95,0.82,0.34,0.28,-1.76,50.0,Medium Risk,Optimize working capital and control operational costs
+SME_530,Retail,10413841,40867715,9557540,857,Delayed,0.91,1.69,2.06,2.28,-4.1,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_531,Logistics,29561846,35574147,14722791,4886,Compliant,3.24,2.99,0.32,0.65,21.88,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_532,Services,23968625,43970727,14163844,12945,Delayed,2.07,2.44,2.61,1.82,-7.48,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_533,Services,46411262,6714768,6932667,7485,Compliant,1.26,2.57,1.78,4.99,17.46,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_534,Logistics,11957501,25501670,9837695,13680,Delayed,1.68,1.98,3.43,4.46,4.66,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_535,E-commerce,34892435,9215995,19308744,16767,Compliant,1.3,0.32,1.44,0.34,20.23,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_536,Services,3933382,40680883,2108542,14397,Delayed,2.62,0.78,2.71,2.86,28.58,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_537,Retail,9170178,8464220,6922496,10744,Compliant,2.85,2.79,2.47,3.27,-5.42,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_538,Retail,28848817,18721829,9326243,4334,Delayed,2.97,1.23,0.12,1.13,2.58,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_539,Manufacturing,29746906,18474854,18163905,19109,Non-Compliant,3.45,0.49,0.42,0.81,22.41,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_540,Services,3895049,24312113,12204734,12226,Delayed,2.83,2.17,1.38,4.53,0.65,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_541,E-commerce,17343366,24925886,11455591,13440,Compliant,2.22,1.04,3.98,4.85,-1.4,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_542,Logistics,25228848,30990972,2846230,15020,Non-Compliant,1.39,0.95,0.75,4.96,23.02,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_543,Logistics,41484077,36410502,13970696,4251,Delayed,2.04,2.99,3.23,3.97,29.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_544,E-commerce,11322814,42832666,18895649,12180,Non-Compliant,0.43,2.6,4.38,3.35,12.28,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_545,Agriculture,23358903,34243291,5553535,16140,Delayed,2.68,1.34,3.58,1.79,1.12,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_546,Manufacturing,48856322,21926982,3678621,922,Non-Compliant,1.73,2.94,1.17,0.94,5.94,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_547,Logistics,48568795,16205013,4556766,19299,Compliant,0.36,2.02,4.1,0.49,-3.19,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_548,Services,43442594,42937345,15074661,7957,Delayed,0.5,2.28,0.51,3.5,20.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_549,Manufacturing,38247492,38211773,6227018,19430,Delayed,1.54,0.29,2.16,3.95,20.94,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_550,Services,15670521,15721333,9686599,15796,Compliant,2.17,0.54,4.01,4.15,25.0,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_551,Retail,26341846,39431525,6971138,1230,Non-Compliant,1.79,1.97,2.92,4.58,-8.94,68.0,Medium Risk,Optimize working capital and control operational costs
+SME_552,Manufacturing,12767883,42547406,15237307,10627,Compliant,2.28,2.72,1.92,4.41,12.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_553,Logistics,43139398,17679636,10202796,10006,Compliant,1.84,1.95,1.39,5.0,-1.43,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_554,Manufacturing,12484398,44594441,10495967,4933,Non-Compliant,2.42,0.58,1.75,1.3,3.64,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_555,Manufacturing,31002775,39483478,8607009,14295,Compliant,1.0,0.52,2.34,3.84,21.4,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_556,Manufacturing,35896080,9826807,8547900,16377,Delayed,0.66,2.56,1.5,2.97,-2.32,60.0,Medium Risk,Optimize working capital and control operational costs
+SME_557,Agriculture,31215395,17838118,7545189,203,Delayed,2.21,0.59,4.36,1.38,15.53,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_558,Manufacturing,41186940,41516548,11556367,16544,Delayed,1.85,1.66,4.21,4.91,16.18,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_559,Services,23715061,26935897,8852545,15899,Compliant,0.39,0.3,3.93,4.5,28.16,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_560,Retail,27354296,29719409,15275664,3748,Delayed,1.52,0.43,1.96,0.73,21.01,60.0,Medium Risk,Optimize working capital and control operational costs
+SME_561,E-commerce,15449772,18863212,2681206,6718,Delayed,0.64,2.08,3.14,0.23,22.15,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_562,Manufacturing,4328433,30996308,187771,18965,Delayed,2.0,2.13,4.07,3.47,11.26,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_563,Logistics,20012480,20423633,17014415,1093,Delayed,1.57,1.16,3.84,3.06,-2.53,38.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_564,Manufacturing,47649071,9491044,7290213,15228,Delayed,2.26,0.8,1.92,4.69,7.02,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_565,Logistics,21725964,28109612,14392507,16034,Delayed,2.88,2.48,0.59,1.25,11.98,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_566,Services,28366537,15342371,19634497,5710,Compliant,1.26,0.81,0.43,0.51,17.14,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_567,Logistics,7652747,1951330,11121089,9732,Delayed,3.38,1.72,2.64,1.37,14.31,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_568,E-commerce,48844513,1371248,19051532,19259,Delayed,2.01,2.91,2.93,0.19,5.76,44.0,Medium Risk,Optimize working capital and control operational costs
+SME_569,Retail,38191702,5057851,11991223,3191,Non-Compliant,2.28,0.61,3.84,0.28,0.61,7.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_570,Logistics,38372354,23872522,751518,18221,Compliant,2.48,2.83,1.39,4.58,-3.27,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_571,Logistics,46558665,5778750,17290529,689,Compliant,2.43,0.71,0.84,1.82,17.75,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_572,Retail,26125121,3007411,12320194,2103,Compliant,1.94,1.79,1.77,2.11,15.82,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_573,E-commerce,24742589,2093439,14828758,365,Compliant,1.67,1.26,1.66,0.19,17.49,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_574,Manufacturing,1520154,19008310,16716407,14010,Delayed,0.47,2.9,0.68,1.43,4.9,60.0,Medium Risk,Optimize working capital and control operational costs
+SME_575,Logistics,38999601,37391604,2332214,11767,Delayed,0.37,0.97,3.06,4.04,0.5,46.0,Medium Risk,Optimize working capital and control operational costs
+SME_576,Retail,7233215,17004953,5081820,16103,Non-Compliant,1.45,1.32,2.34,3.12,20.39,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_577,Services,46520191,9847933,9042832,12742,Non-Compliant,1.37,2.95,3.27,3.79,20.95,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_578,Retail,8695810,40874307,2250397,12391,Compliant,1.54,1.7,1.65,2.29,8.22,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_579,Services,32839834,23100577,10387892,4172,Non-Compliant,0.74,1.61,1.53,1.62,14.48,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_580,E-commerce,41239629,39496943,10390284,15623,Non-Compliant,2.66,0.92,2.18,2.47,4.94,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_581,Manufacturing,30400787,13207931,8291860,2378,Compliant,3.04,2.16,3.96,1.68,18.08,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_582,Retail,25448764,31616359,15850898,17589,Compliant,3.3,0.24,0.28,4.21,23.43,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_583,Agriculture,7214301,4215144,8843026,12031,Non-Compliant,1.88,0.34,3.64,1.56,17.53,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_584,Logistics,45246736,20613468,7726360,5669,Delayed,2.54,1.88,1.72,3.33,10.5,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_585,E-commerce,49058556,16941107,1472542,2735,Non-Compliant,3.04,1.16,3.86,0.77,8.35,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_586,Retail,27759197,1217052,4473014,9867,Non-Compliant,1.64,2.87,3.63,3.47,15.69,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_587,Logistics,48284180,27551781,13245462,8490,Delayed,1.29,2.73,1.63,4.58,17.19,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_588,Retail,47879179,7996585,17339837,956,Delayed,3.3,2.2,3.15,3.08,12.35,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_589,Services,11260888,16577172,3529801,9306,Compliant,1.95,2.49,0.8,2.84,15.0,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_590,Retail,11805231,13702313,4808163,6623,Compliant,1.89,2.07,4.04,4.81,-6.14,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_591,Agriculture,26535947,6669324,6284851,14908,Non-Compliant,0.87,0.55,1.88,3.17,28.07,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_592,Retail,33409688,35382512,18375315,17858,Delayed,0.65,2.34,2.1,1.37,21.63,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_593,Retail,11874857,9890536,12583071,4460,Compliant,2.99,0.79,3.21,1.53,4.96,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_594,Agriculture,49964216,36475711,12201841,13986,Non-Compliant,2.27,1.11,3.71,3.56,12.51,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_595,E-commerce,35914014,24681104,9600177,12638,Delayed,1.34,2.49,1.14,3.7,-8.11,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_596,Retail,30110323,10888951,12949915,19212,Non-Compliant,0.91,1.7,3.01,1.59,-8.35,8.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_597,Agriculture,14275236,12885000,1195885,2850,Compliant,2.08,2.61,1.82,1.79,0.03,66.0,Medium Risk,Optimize working capital and control operational costs
+SME_598,Logistics,19407101,23297064,9544691,13299,Compliant,2.17,0.8,1.72,4.96,17.59,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_599,Services,14872528,3126016,3898190,10698,Delayed,0.96,1.9,3.14,0.6,24.09,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_600,Services,5220642,842939,3388445,19348,Non-Compliant,3.02,0.43,1.8,2.08,12.37,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_601,Retail,47195565,20460188,19520190,4594,Delayed,0.57,2.0,1.62,0.41,11.29,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_602,E-commerce,1049239,36666225,11880707,14282,Compliant,1.44,2.34,3.78,4.12,6.09,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_603,E-commerce,26222525,31222201,9667788,16285,Compliant,2.48,1.84,0.55,0.55,-3.54,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_604,Logistics,39463185,13535871,11721786,14334,Non-Compliant,1.18,0.95,3.07,3.4,-5.27,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_605,Retail,47673924,36273556,8197590,6644,Non-Compliant,2.95,0.29,1.19,0.38,20.43,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_606,Services,47071160,13731233,8182535,2850,Non-Compliant,2.67,0.53,0.17,3.4,27.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_607,E-commerce,10159072,19696186,12919819,14933,Delayed,2.82,1.94,0.83,4.23,8.33,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_608,Retail,18062548,35681840,19361398,165,Non-Compliant,0.68,2.82,2.77,2.05,16.38,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_609,E-commerce,14876941,19978958,10196894,10701,Non-Compliant,0.75,0.78,3.22,2.66,26.58,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_610,Agriculture,25832296,18232891,12988365,919,Compliant,1.22,2.26,0.19,2.07,-6.4,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_611,E-commerce,897710,12352983,4363089,8305,Compliant,1.96,2.63,0.26,1.57,20.82,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_612,Services,40557648,32438060,14884599,19888,Non-Compliant,2.69,1.66,4.07,4.04,14.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_613,Manufacturing,4817048,41391186,19575137,17375,Non-Compliant,2.98,2.07,0.42,1.43,13.95,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_614,Logistics,33881719,13537311,12762750,15715,Compliant,2.55,2.48,4.03,3.64,1.7,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_615,Logistics,14633434,17151531,17219120,3839,Non-Compliant,3.27,0.93,1.1,1.11,17.36,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_616,Services,5285956,25195222,5092792,17642,Delayed,2.66,1.03,3.36,1.32,21.79,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_617,E-commerce,22382940,36274916,578526,11618,Delayed,1.28,0.2,1.46,1.75,-5.49,22.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_618,Retail,39080196,4505223,6612208,13519,Delayed,1.15,2.9,3.88,2.99,11.34,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_619,E-commerce,48973002,29484871,14244857,10776,Non-Compliant,2.53,2.77,3.18,2.33,-5.95,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_620,Services,45293211,29034616,7587676,67,Compliant,0.92,2.34,1.87,3.75,24.9,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_621,Logistics,49165285,12363776,17614609,9788,Non-Compliant,0.6,0.42,0.44,1.15,10.31,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_622,E-commerce,18187991,41564396,11734111,5660,Non-Compliant,2.0,1.45,3.32,0.15,22.32,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_623,Logistics,40009310,22972466,16541989,4478,Compliant,2.93,0.49,2.81,3.91,4.72,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_624,Retail,31561293,38009879,814422,8210,Compliant,0.62,0.24,0.11,4.13,-5.0,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_625,Logistics,30772855,18957968,14607153,10922,Compliant,2.83,1.93,0.14,0.39,-8.34,50.0,Medium Risk,Optimize working capital and control operational costs
+SME_626,Logistics,17836140,14901508,16406440,3521,Delayed,2.9,2.89,3.66,3.09,1.26,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_627,Manufacturing,21158401,37247763,19040645,572,Non-Compliant,1.84,2.73,1.24,1.95,-0.23,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_628,Manufacturing,46816696,13857684,19913028,7082,Compliant,0.48,2.15,2.9,3.99,12.41,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_629,Agriculture,39059430,41208249,12663723,5395,Non-Compliant,0.86,0.47,2.1,4.38,-9.13,44.0,Medium Risk,Optimize working capital and control operational costs
+SME_630,Manufacturing,29678419,38289950,19715903,15407,Delayed,2.56,0.97,3.9,4.27,10.82,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_631,Logistics,11179043,31381347,16192668,18642,Delayed,2.58,1.1,4.13,3.91,5.67,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_632,Services,47552359,25968906,5153435,11094,Compliant,3.17,2.34,4.49,1.42,13.08,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_633,Logistics,22970291,8989747,1416842,650,Compliant,2.16,2.45,0.78,4.08,18.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_634,Services,42164348,39177230,3689024,5741,Non-Compliant,0.7,1.28,3.9,2.71,15.36,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_635,Services,39247710,21081938,10670216,13281,Compliant,0.69,1.37,1.27,0.36,29.39,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_636,Manufacturing,11312658,22392838,3641771,6838,Non-Compliant,2.61,0.32,2.7,2.34,-4.47,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_637,E-commerce,47589005,11535474,6428099,18971,Compliant,0.89,1.01,2.33,4.72,7.19,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_638,Retail,802186,9996394,4079441,3262,Non-Compliant,1.35,1.46,0.18,4.45,6.99,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_639,Manufacturing,20484609,25658425,5356430,17722,Non-Compliant,1.86,0.53,4.2,0.6,6.68,14.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_640,Manufacturing,39543896,20352900,17737868,4996,Non-Compliant,0.38,1.47,0.44,3.75,16.55,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_641,E-commerce,7956985,12172676,2188370,11826,Non-Compliant,1.1,2.59,3.13,4.05,9.59,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_642,Retail,24044744,17806301,15861936,2827,Delayed,1.61,1.83,3.55,1.43,10.7,50.0,Medium Risk,Optimize working capital and control operational costs
+SME_643,Logistics,18303769,10748533,9937093,14211,Non-Compliant,1.19,0.42,3.6,2.41,7.29,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_644,Agriculture,27881509,27083911,9955951,5232,Compliant,0.74,0.74,0.7,3.58,29.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_645,Agriculture,17227556,10801929,13490123,2217,Delayed,2.63,1.53,2.07,2.25,27.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_646,Logistics,47605796,23249061,14023346,19923,Delayed,2.9,1.21,3.75,0.65,2.31,32.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_647,Manufacturing,21021013,19695854,14396836,14232,Non-Compliant,1.12,1.2,1.43,3.56,-5.54,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_648,Retail,2014542,17780319,13869526,14026,Delayed,2.78,1.68,2.16,4.57,23.59,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_649,Manufacturing,38235088,35944400,6985945,19345,Non-Compliant,1.53,1.84,1.3,3.3,29.89,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_650,Services,11818792,5703943,9144220,19610,Compliant,1.92,2.43,2.14,3.89,1.7,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_651,Manufacturing,25742722,15853951,2076475,13878,Non-Compliant,3.04,1.15,4.01,1.86,4.31,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_652,Manufacturing,15635763,39451623,2141912,6837,Delayed,2.7,2.46,2.1,1.0,27.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_653,Logistics,45738137,31499208,3144311,7031,Compliant,2.88,1.15,2.55,3.25,18.45,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_654,Logistics,40900624,30205505,17062838,14806,Non-Compliant,0.74,0.36,1.88,1.71,1.83,25.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_655,Logistics,9176924,11404849,18740105,3716,Compliant,0.52,1.75,2.12,4.31,13.24,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_656,Agriculture,44451994,23650723,12414998,3414,Compliant,3.16,1.85,0.17,0.7,27.77,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_657,Services,24624905,24614909,18173652,17832,Delayed,1.54,2.82,1.35,2.22,22.47,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_658,Logistics,35883985,39092429,9056148,570,Compliant,1.22,2.23,2.02,2.04,19.67,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_659,Retail,29754481,29409512,2195690,19288,Delayed,2.62,2.77,2.89,4.7,19.48,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_660,Agriculture,37095773,14484264,9976844,13288,Compliant,2.98,2.74,2.08,0.85,-2.88,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_661,E-commerce,29753634,29182808,13399140,18889,Non-Compliant,3.06,1.89,1.59,0.15,22.99,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_662,Retail,14815679,41224950,13852523,917,Compliant,1.31,1.68,1.81,1.27,1.04,39.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_663,Retail,44548098,22689150,19759626,10066,Non-Compliant,3.03,1.76,1.17,4.12,27.21,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_664,Logistics,24940805,42127753,18181571,6982,Non-Compliant,0.43,2.94,4.17,1.13,4.59,20.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_665,E-commerce,22265239,8299284,5056093,6336,Compliant,0.46,2.36,2.4,1.28,24.31,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_666,E-commerce,25086222,1403171,14358216,18062,Non-Compliant,2.3,0.5,0.16,0.74,0.65,50.0,Medium Risk,Optimize working capital and control operational costs
+SME_667,Agriculture,16027000,24392154,16331284,16999,Compliant,0.5,2.38,0.19,3.61,10.58,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_668,E-commerce,18953059,20077953,2464722,9941,Compliant,1.34,0.68,4.38,0.44,-5.72,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_669,Services,8923309,35324917,6559442,12380,Non-Compliant,2.45,1.45,1.07,1.72,16.4,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_670,Logistics,3729028,7445900,15136395,19889,Non-Compliant,1.38,0.79,3.64,1.48,23.44,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_671,E-commerce,18998826,18858292,5630761,11667,Delayed,0.87,2.13,0.36,2.82,18.74,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_672,Agriculture,11069320,22489615,13939600,4529,Non-Compliant,1.2,2.66,4.15,3.68,10.93,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_673,Services,2839767,31000479,2901092,17519,Delayed,1.76,1.01,3.95,2.71,-8.2,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_674,Manufacturing,32000922,1381883,15783215,12192,Non-Compliant,1.82,0.43,2.61,4.66,27.34,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_675,Manufacturing,19891451,2068321,9911142,8566,Compliant,2.81,1.04,0.14,4.76,18.22,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_676,Services,34545468,13696138,1722907,7226,Non-Compliant,2.7,2.08,1.23,1.87,19.83,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_677,Agriculture,11351224,43961742,13063720,5162,Compliant,1.76,1.12,1.89,3.91,21.79,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_678,Services,36764673,6554512,19647790,16590,Compliant,3.01,0.98,2.12,3.72,19.91,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_679,Logistics,12322411,27065895,6882799,1319,Compliant,0.67,0.72,1.41,4.48,7.64,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_680,Logistics,18420169,20936721,6921983,1141,Delayed,1.12,1.59,0.24,2.29,19.34,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_681,Manufacturing,4478702,25592630,6526925,4627,Non-Compliant,2.95,0.97,2.7,2.7,15.0,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_682,E-commerce,42223416,5818952,11277547,14501,Compliant,1.51,2.25,2.41,2.14,24.16,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_683,Agriculture,17604132,4664423,12374888,2690,Compliant,3.44,0.41,1.35,4.27,22.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_684,Manufacturing,4097706,44216762,8343528,7323,Delayed,1.79,2.06,0.27,1.23,-8.35,46.0,Medium Risk,Optimize working capital and control operational costs
+SME_685,E-commerce,38560986,14216653,10488017,3255,Non-Compliant,2.83,0.87,4.48,1.27,5.16,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_686,E-commerce,1105409,8581883,8020364,5213,Non-Compliant,1.59,1.57,2.22,1.93,-8.61,29.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_687,Logistics,9962743,15709784,7451747,4108,Delayed,1.66,1.0,3.43,1.23,-5.92,7.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_688,Retail,11877787,32327921,3881857,19404,Delayed,1.53,2.22,2.09,2.85,14.06,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_689,Retail,22327621,24348053,4537871,18241,Non-Compliant,2.6,2.85,0.29,0.76,24.95,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_690,Services,42392167,35474035,17068680,19173,Delayed,2.05,2.77,1.46,1.67,-5.21,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_691,Logistics,35780122,27534365,4739400,9802,Non-Compliant,3.32,1.83,1.51,4.58,8.04,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_692,E-commerce,20557988,28070483,11062437,11413,Non-Compliant,1.1,1.5,3.79,2.11,26.44,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_693,Agriculture,8697295,18040619,15168970,14995,Compliant,0.62,2.49,2.98,3.77,22.57,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_694,Retail,49895289,43222943,16895797,12583,Compliant,1.56,2.11,1.31,0.66,10.79,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_695,E-commerce,6309041,22672887,17278806,5021,Non-Compliant,2.27,0.71,4.36,1.31,20.86,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_696,Retail,13046501,34933268,17649544,18771,Non-Compliant,3.05,2.5,1.51,4.06,10.91,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_697,Retail,39141700,20400738,16271063,6582,Non-Compliant,1.41,1.4,4.49,3.84,-3.68,40.0,Medium Risk,Optimize working capital and control operational costs
+SME_698,Retail,6655579,15204511,4809479,13455,Non-Compliant,2.39,0.73,4.48,1.99,-5.01,18.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_699,Agriculture,903119,19394397,13753606,13117,Non-Compliant,1.42,0.99,0.94,4.78,-2.47,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_700,Logistics,49392876,8968438,3110691,18950,Non-Compliant,2.28,0.95,1.48,4.56,4.04,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_701,Agriculture,17056827,18733734,18135313,17359,Delayed,3.13,1.65,2.24,4.82,27.22,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_702,Manufacturing,30995692,12272752,11688962,1262,Non-Compliant,1.04,0.86,3.02,2.2,21.99,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_703,E-commerce,32527216,36613515,13431835,7382,Delayed,1.59,0.55,2.42,1.07,7.31,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_704,Logistics,46763335,10025105,18071531,3327,Delayed,3.48,0.55,4.37,3.17,9.72,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_705,Logistics,34457164,22054924,19352724,18643,Non-Compliant,3.08,1.83,3.29,3.46,0.62,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_706,Logistics,2450013,10335869,10764827,10020,Non-Compliant,2.11,2.26,1.03,0.71,18.17,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_707,Logistics,1632658,32245012,9746919,17641,Delayed,1.95,1.1,0.56,3.95,22.11,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_708,Agriculture,38377058,41834749,16762293,16848,Delayed,1.21,0.3,3.13,0.19,-0.44,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_709,Logistics,17934167,42235879,4510784,14062,Non-Compliant,1.96,0.56,0.8,2.47,-8.33,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_710,Services,25677127,37850390,16941290,19678,Non-Compliant,3.01,2.76,3.57,1.72,14.96,93.0,Low Risk,Eligible for growth investment or working capital loan
+SME_711,E-commerce,26876033,30392671,2570466,6774,Delayed,2.49,1.58,1.47,3.73,12.5,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_712,Logistics,14381178,24253258,12043788,15160,Delayed,1.23,1.47,1.54,1.63,6.09,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_713,E-commerce,22481132,32869247,14622008,1230,Delayed,0.94,0.31,0.15,4.15,15.76,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_714,Services,6526988,14089493,12871728,9076,Compliant,1.15,2.24,3.18,3.02,12.02,77.0,Low Risk,Eligible for growth investment or working capital loan
+SME_715,Services,16090661,1665898,9179253,3805,Delayed,0.84,1.68,0.6,3.99,0.02,83.0,Low Risk,Eligible for growth investment or working capital loan
+SME_716,E-commerce,24703479,16318424,3287093,14715,Compliant,0.61,0.77,3.5,4.95,5.91,68.0,Medium Risk,Optimize working capital and control operational costs
+SME_717,Retail,2866610,36074971,1017481,5750,Non-Compliant,1.64,0.51,2.26,3.43,7.12,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_718,Manufacturing,38234735,39901580,8451115,15627,Non-Compliant,0.66,1.27,3.55,4.93,25.21,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_719,Retail,9956807,37185617,2338377,13232,Delayed,0.85,2.54,2.67,0.24,28.44,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_720,Retail,47360379,29299868,17583780,3135,Non-Compliant,2.05,2.62,0.46,1.76,25.72,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_721,Agriculture,29842048,31452238,6047511,6953,Non-Compliant,0.83,1.89,3.47,0.63,18.77,44.0,Medium Risk,Optimize working capital and control operational costs
+SME_722,Retail,5184346,23100314,9998081,1546,Non-Compliant,0.5,2.24,0.41,1.39,13.4,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_723,Logistics,34512730,17662030,15902677,15457,Non-Compliant,1.32,0.52,2.21,4.21,17.57,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_724,Agriculture,18324559,25537138,15176077,17478,Compliant,1.01,1.85,0.86,0.26,27.56,84.0,Low Risk,Eligible for growth investment or working capital loan
+SME_725,Agriculture,22996936,43569174,737954,2411,Compliant,1.95,2.07,3.41,2.65,-0.0,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_726,Services,25771052,31179669,2908056,19001,Delayed,0.63,0.76,4.11,2.88,11.4,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_727,Retail,38675082,35554340,7840130,14113,Delayed,2.71,2.66,2.54,2.85,17.58,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_728,Services,19032908,39264224,9095781,4145,Delayed,3.2,0.75,2.42,2.43,17.17,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_729,E-commerce,43327096,36308279,5934261,2775,Non-Compliant,2.68,1.08,3.46,3.97,0.09,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_730,Manufacturing,35784660,11418754,4510579,13193,Non-Compliant,2.01,1.94,0.12,0.75,13.47,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_731,Agriculture,36001225,3292478,9068055,12851,Compliant,3.05,1.99,4.14,1.62,21.84,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_732,E-commerce,40169950,11231890,13562026,13070,Compliant,2.52,2.16,0.97,3.12,9.0,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_733,E-commerce,49852346,6349852,11368856,19539,Delayed,0.33,0.51,4.43,3.49,21.73,62.0,Medium Risk,Optimize working capital and control operational costs
+SME_734,Logistics,12167877,429725,11002595,3970,Compliant,1.56,2.58,3.34,2.08,4.4,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_735,Manufacturing,7893979,9584536,11142521,14119,Compliant,3.02,1.69,3.51,4.39,27.55,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_736,E-commerce,10615078,16813806,14634171,4331,Compliant,1.41,1.52,2.99,2.14,11.36,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_737,E-commerce,29006244,20148999,19312448,10295,Compliant,0.41,2.95,2.18,2.07,13.84,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_738,Manufacturing,25714698,36617193,7704694,1942,Compliant,2.69,2.27,2.62,0.28,-8.75,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_739,Manufacturing,35677004,40478991,2378907,16575,Delayed,2.87,0.53,0.3,2.8,-3.19,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_740,E-commerce,17986878,31912427,6990607,13404,Delayed,0.81,2.32,2.85,3.57,15.32,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_741,Manufacturing,22598345,33521540,4532688,861,Compliant,2.02,0.47,2.85,0.66,6.79,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_742,E-commerce,17120937,28105858,2363162,9275,Delayed,0.91,0.28,4.02,1.6,10.33,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_743,E-commerce,32484287,32332864,5680820,17033,Non-Compliant,2.6,1.33,2.32,3.93,-7.48,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_744,Logistics,30538378,23713511,19470010,4134,Compliant,1.17,2.98,0.44,1.89,23.37,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_745,Retail,42913492,28119138,10600157,11803,Non-Compliant,1.31,0.69,1.45,1.28,21.38,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_746,E-commerce,39727037,21086655,2345704,15408,Delayed,3.0,2.08,2.98,3.39,-2.59,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_747,Services,11028294,14126569,12969633,17420,Delayed,1.82,0.69,1.15,1.06,15.37,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_748,Agriculture,19869886,6027745,8811940,16351,Non-Compliant,2.44,2.23,1.33,4.49,22.73,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_749,Retail,5310833,4311146,8277983,4131,Delayed,1.59,1.61,3.71,0.62,15.63,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_750,Retail,23980675,35661449,17069791,18532,Compliant,1.25,2.1,2.67,3.56,2.42,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_751,Retail,40472097,34643988,18236916,12057,Non-Compliant,2.3,0.77,2.34,2.55,16.24,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_752,Logistics,17719277,11645869,19978294,11349,Compliant,0.8,2.29,1.5,4.36,-1.58,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_753,E-commerce,29000556,28791654,10031033,11486,Non-Compliant,1.49,2.99,3.32,0.72,2.73,35.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_754,Logistics,32573692,24465754,19384838,5457,Delayed,0.97,2.06,1.37,3.42,-0.4,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_755,E-commerce,37816107,2653722,18664179,6079,Non-Compliant,2.53,1.58,3.34,2.9,12.28,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_756,Logistics,27927110,2049729,5304120,12453,Non-Compliant,3.32,2.78,0.41,2.45,-5.67,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_757,Logistics,24692961,1516271,19549821,18814,Compliant,3.49,0.24,3.9,2.51,27.33,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_758,Agriculture,25359871,11316876,1447947,18263,Delayed,1.74,2.24,2.3,3.64,3.34,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_759,Services,26154796,32378888,5813775,12158,Compliant,1.11,2.69,2.03,4.69,-1.24,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_760,Logistics,32935245,31974515,12565034,15735,Delayed,1.72,0.37,2.79,0.55,9.86,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_761,Agriculture,29763888,37053987,6472652,15830,Compliant,3.01,1.46,2.85,0.2,1.08,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_762,Manufacturing,28283527,22861013,18275555,15125,Non-Compliant,0.96,0.77,0.68,4.05,11.4,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_763,Services,42606078,18858857,14219886,11905,Compliant,3.35,1.79,3.43,0.63,3.94,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_764,Logistics,7781505,17843381,15913266,12298,Delayed,1.39,2.02,1.31,4.93,-4.72,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_765,Retail,39179227,19965579,676296,2011,Delayed,3.45,1.05,4.08,3.13,0.64,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_766,Manufacturing,39465695,21653537,379039,3373,Non-Compliant,2.98,1.49,3.7,3.29,7.54,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_767,Manufacturing,38018167,37664820,528714,10335,Delayed,2.89,0.98,1.62,1.07,-8.79,35.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_768,Agriculture,27040396,37189624,7035655,10692,Compliant,1.32,1.23,3.65,1.28,20.83,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_769,Manufacturing,15312143,28333715,8368352,14527,Non-Compliant,0.33,0.65,1.67,3.33,14.87,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_770,Services,9489138,27306511,19688406,12773,Delayed,1.52,2.68,0.54,4.56,14.05,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_771,Logistics,47864509,35889522,8941047,1289,Delayed,1.27,0.23,4.33,4.91,11.84,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_772,Logistics,12537574,37891702,17050668,1447,Compliant,0.42,2.67,2.97,1.07,13.61,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_773,Retail,43520873,7139013,16708666,19583,Compliant,1.92,1.8,2.11,0.76,27.39,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_774,Agriculture,45020680,7489975,4371047,19567,Non-Compliant,1.59,1.13,1.85,0.38,-9.66,3.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_775,Retail,42878463,9205586,13721794,14139,Delayed,2.33,2.22,1.53,4.35,-8.09,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_776,Manufacturing,7055035,38773507,7184872,13757,Compliant,2.29,1.62,4.42,1.54,-2.34,25.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_777,Retail,33235803,44964078,18967137,5462,Non-Compliant,0.69,1.6,0.69,0.11,-3.31,14.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_778,Services,33237614,12168963,7427297,19600,Delayed,3.43,0.51,1.49,1.2,-2.75,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_779,Logistics,44107261,14663315,19975372,19520,Delayed,0.9,1.29,2.24,1.77,16.88,64.0,Medium Risk,Optimize working capital and control operational costs
+SME_780,Manufacturing,16386372,4268452,13559001,19702,Non-Compliant,1.72,0.87,2.2,4.96,8.38,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_781,Retail,38122748,29571429,17539587,19166,Non-Compliant,1.86,0.24,2.17,2.67,29.67,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_782,Agriculture,32956981,27766868,16920196,7657,Compliant,2.9,1.21,0.87,1.1,-0.92,62.0,Medium Risk,Optimize working capital and control operational costs
+SME_783,Services,8567987,8474037,10822611,4920,Delayed,0.62,0.45,0.74,1.74,2.43,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_784,Services,2156671,35267175,17034570,10345,Delayed,1.67,0.92,1.22,1.72,29.37,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_785,Retail,22958851,28306918,7863438,8417,Delayed,2.31,0.46,4.12,0.2,23.27,48.0,Medium Risk,Optimize working capital and control operational costs
+SME_786,Logistics,23422481,14222356,14991637,17160,Non-Compliant,0.99,0.48,0.6,0.76,8.79,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_787,Retail,42581603,44270245,7972368,5208,Compliant,2.31,0.76,3.43,3.51,12.18,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_788,Manufacturing,18060282,40962875,2235883,687,Delayed,3.26,3.0,3.43,0.69,23.73,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_789,Retail,43997663,43681526,10939590,16913,Non-Compliant,3.49,0.21,3.66,1.23,9.24,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_790,Services,22177072,43820892,764265,13223,Delayed,0.4,1.99,4.0,1.82,-1.76,10.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_791,Retail,23517995,7703693,14793752,8080,Compliant,1.05,0.6,1.26,3.81,23.14,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_792,Logistics,21333173,20392066,308617,18537,Delayed,1.29,2.78,1.09,2.95,11.51,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_793,Agriculture,23894704,10508631,11368954,9486,Compliant,1.58,0.46,2.15,3.48,-3.88,51.0,Medium Risk,Optimize working capital and control operational costs
+SME_794,E-commerce,17875113,8383439,744748,6094,Compliant,1.08,2.87,1.27,2.88,10.22,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_795,Retail,21218453,29127993,12025170,7692,Delayed,0.95,1.91,3.33,3.45,6.53,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_796,Logistics,9661408,25864695,16439751,11088,Delayed,3.35,0.2,2.9,0.11,25.07,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_797,Logistics,47939893,42222973,13495655,3103,Compliant,3.24,2.7,3.95,4.66,-4.96,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_798,Agriculture,37714417,9946263,734275,2440,Non-Compliant,0.45,1.66,0.46,0.64,25.01,78.0,Low Risk,Eligible for growth investment or working capital loan
+SME_799,Services,25296429,20126497,9686427,7124,Compliant,1.38,0.94,4.13,2.09,10.49,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_800,Logistics,20853727,24533277,9422794,17228,Delayed,1.6,2.35,1.39,3.88,6.17,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_801,Logistics,18441166,35249361,8987114,14031,Delayed,1.06,2.79,2.26,2.23,-3.52,48.0,Medium Risk,Optimize working capital and control operational costs
+SME_802,Logistics,1049148,36459026,6194224,14536,Non-Compliant,2.31,1.55,2.03,4.74,18.03,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_803,Logistics,36828139,18420510,8945326,446,Compliant,2.35,1.08,3.45,2.39,27.07,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_804,Manufacturing,30344218,31786811,14703155,3915,Compliant,3.02,2.41,1.95,4.39,5.02,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_805,Manufacturing,22345218,41666066,6024293,15787,Compliant,2.67,2.11,4.25,4.07,-0.34,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_806,Services,3273939,36369234,6193367,19493,Delayed,2.04,2.69,4.07,4.91,12.19,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_807,Retail,35990172,34397463,5318331,17618,Compliant,2.39,2.14,3.94,4.64,21.85,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_808,Logistics,37489387,26656492,19741160,6587,Non-Compliant,1.18,0.88,0.41,4.5,-9.85,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_809,Agriculture,38991142,16063645,10736301,226,Delayed,2.2,2.81,3.86,3.68,15.26,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_810,Retail,13926716,19967589,11152153,11151,Delayed,1.87,0.49,3.54,1.9,13.86,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_811,Agriculture,28411050,29249268,3948401,5558,Compliant,0.73,0.95,0.56,0.62,2.73,30.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_812,Retail,39210304,32032286,124932,11971,Non-Compliant,1.08,1.66,0.57,3.47,8.06,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_813,Services,48218021,7461183,15841640,186,Delayed,1.23,1.78,0.55,4.9,-0.12,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_814,Logistics,18831726,20464274,10140106,14680,Delayed,3.26,0.24,0.15,3.66,21.6,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_815,Logistics,27496639,11992111,6280757,14559,Compliant,1.04,2.39,2.51,4.65,15.38,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_816,E-commerce,21040338,29724003,6784672,11069,Compliant,1.23,1.21,4.38,4.04,11.31,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_817,Agriculture,11274986,690998,14069473,2535,Non-Compliant,1.48,1.34,2.03,0.9,5.7,40.0,Medium Risk,Optimize working capital and control operational costs
+SME_818,Retail,49550169,5255920,11619039,1932,Compliant,2.42,2.47,2.48,1.32,1.66,59.0,Medium Risk,Optimize working capital and control operational costs
+SME_819,Retail,4921590,6767712,2592316,2032,Non-Compliant,0.68,1.26,4.36,1.78,22.91,52.0,Medium Risk,Optimize working capital and control operational costs
+SME_820,Manufacturing,36589369,8397043,16143481,1252,Delayed,3.35,0.33,1.22,0.92,8.06,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_821,E-commerce,12046081,581360,5895725,5509,Non-Compliant,3.07,0.69,3.88,2.95,10.06,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_822,Manufacturing,34866893,19621242,15981957,5074,Non-Compliant,2.15,2.88,2.5,4.88,10.83,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_823,Manufacturing,29721379,19692635,5438757,13900,Non-Compliant,2.46,0.4,2.61,3.83,7.93,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_824,Manufacturing,18995440,5932410,9783893,14523,Delayed,0.35,1.19,1.61,2.17,0.24,34.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_825,Agriculture,36765058,4538286,13064637,1881,Compliant,1.38,1.61,2.57,0.12,-5.19,3.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_826,Agriculture,45424392,11431669,2664749,269,Delayed,2.85,1.58,0.42,1.64,-6.06,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_827,Services,32170310,8733100,13436812,1630,Compliant,0.55,0.21,3.46,2.68,20.3,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_828,Services,49458734,7293728,7246813,17958,Non-Compliant,1.2,1.6,1.35,1.69,-1.06,44.0,Medium Risk,Optimize working capital and control operational costs
+SME_829,Manufacturing,27052476,19304815,19699205,13383,Non-Compliant,2.17,1.27,4.01,0.64,-7.77,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_830,E-commerce,6940010,27791022,984156,16152,Non-Compliant,1.12,2.92,1.72,2.27,21.9,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_831,Retail,9174163,38888026,13331690,11084,Non-Compliant,3.29,0.65,0.73,1.34,-3.84,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_832,Agriculture,18779553,16097605,10625643,1695,Non-Compliant,0.72,1.19,3.16,4.56,15.01,90.0,Low Risk,Eligible for growth investment or working capital loan
+SME_833,E-commerce,31414222,29397166,17981136,19642,Compliant,2.85,1.37,0.82,0.6,3.55,64.0,Medium Risk,Optimize working capital and control operational costs
+SME_834,Logistics,37541101,38337226,19885807,14821,Compliant,1.93,1.29,3.42,0.34,-4.94,3.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_835,Agriculture,49048947,24500710,11999562,3262,Non-Compliant,2.7,2.06,4.36,0.13,6.58,33.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_836,Agriculture,27709162,40653576,17525068,1445,Delayed,1.29,0.8,3.53,1.71,-9.41,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_837,Services,33290042,41822223,16300081,16436,Delayed,1.95,0.82,0.2,3.34,23.64,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_838,Retail,37777378,13499507,9545226,9949,Non-Compliant,3.04,2.24,2.74,3.68,10.54,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_839,Retail,43929245,12685500,5296990,18050,Compliant,1.79,1.6,3.16,2.32,-4.43,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_840,Logistics,45308939,27828913,12299755,6901,Delayed,1.45,1.36,3.73,3.45,-0.52,49.0,Medium Risk,Optimize working capital and control operational costs
+SME_841,Logistics,724695,39244162,6928655,19169,Delayed,2.02,0.67,0.35,1.86,7.92,77.0,Low Risk,Eligible for growth investment or working capital loan
+SME_842,Agriculture,45424507,37193968,16003651,719,Delayed,2.6,0.73,2.21,3.37,-2.45,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_843,Manufacturing,26767668,33407453,11303471,8597,Non-Compliant,1.72,0.23,2.46,0.3,0.74,9.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_844,Services,14563918,15741821,1821367,6855,Delayed,3.3,0.46,0.84,2.01,11.38,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_845,Services,49443187,36280565,3372863,18678,Delayed,1.24,1.76,1.52,3.98,23.3,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_846,Agriculture,30433317,32379500,19676249,8263,Delayed,1.82,2.7,2.04,4.03,6.07,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_847,E-commerce,43853746,44082501,1578315,14520,Delayed,2.72,1.0,3.77,3.61,18.68,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_848,Manufacturing,37394648,10938832,7427210,11874,Compliant,2.51,1.12,4.19,1.1,25.07,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_849,Agriculture,21110500,33651322,18126806,14079,Non-Compliant,3.06,0.52,2.87,1.31,-1.35,39.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_850,Manufacturing,13745696,8348140,11893046,17082,Non-Compliant,3.49,1.29,1.84,4.98,22.29,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_851,Manufacturing,35902297,6120626,12968805,7243,Compliant,1.67,0.3,1.22,0.61,20.3,66.0,Medium Risk,Optimize working capital and control operational costs
+SME_852,Manufacturing,15421595,14054772,19822745,9018,Compliant,0.66,2.77,4.42,0.99,4.28,17.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_853,Agriculture,24863941,40176146,11199747,16732,Non-Compliant,0.4,2.08,4.43,0.74,29.58,53.0,Medium Risk,Optimize working capital and control operational costs
+SME_854,Services,48623406,40329257,5440107,12100,Delayed,2.63,2.97,4.17,1.71,0.5,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_855,Services,49728961,38960290,15172466,16691,Delayed,3.1,2.67,3.56,1.13,0.19,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_856,Manufacturing,43362524,33822637,7081530,19800,Non-Compliant,1.01,1.52,1.53,2.54,20.89,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_857,E-commerce,38071568,29568537,14940284,4820,Delayed,0.81,1.66,3.69,2.43,7.39,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_858,Retail,47924280,8621252,12879120,11001,Compliant,0.5,0.73,1.9,4.52,3.23,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_859,Agriculture,39804715,37370303,19674922,13907,Delayed,2.93,1.49,1.54,0.27,-2.85,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_860,Retail,1574961,25174704,3201473,19942,Delayed,1.3,2.73,3.38,1.67,20.61,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_861,E-commerce,21902894,22140617,9314823,11669,Delayed,1.59,0.34,0.45,3.02,21.45,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_862,Agriculture,12450571,12829667,11422057,15916,Non-Compliant,1.91,2.62,0.31,3.06,12.66,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_863,Manufacturing,19655151,36821189,1449991,10878,Compliant,2.99,1.15,2.07,2.45,28.29,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_864,Services,13366619,26902745,10900518,2985,Delayed,2.38,2.72,2.06,4.1,2.73,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_865,Retail,2974968,11036547,424528,8112,Non-Compliant,2.27,2.83,4.04,0.41,-1.22,26.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_866,Logistics,40220592,13143293,11103831,8467,Delayed,0.86,2.08,0.66,4.1,17.1,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_867,Logistics,47623764,39867750,15652956,18931,Compliant,1.94,2.06,0.64,2.52,20.34,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_868,E-commerce,23249774,13887010,6450219,336,Delayed,2.59,1.47,0.75,0.76,-1.0,55.0,Medium Risk,Optimize working capital and control operational costs
+SME_869,Manufacturing,2942266,30590179,18428040,10165,Compliant,3.41,2.54,0.23,4.44,-6.94,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_870,Retail,4937677,11816757,5265481,19363,Delayed,0.94,2.89,0.42,3.28,22.42,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_871,Manufacturing,47847699,28204333,13618723,12768,Compliant,0.33,2.37,3.0,0.9,29.06,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_872,Retail,10107366,4051387,8527835,3968,Delayed,0.54,1.94,2.0,0.26,15.79,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_873,E-commerce,5741218,27670507,18550271,910,Compliant,1.5,1.9,3.46,0.79,1.11,21.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_874,E-commerce,27321567,44870459,9080745,18380,Delayed,2.93,2.58,4.47,3.08,29.87,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_875,Logistics,5981140,35666104,281854,15632,Delayed,0.32,1.72,3.0,0.98,25.73,58.0,Medium Risk,Optimize working capital and control operational costs
+SME_876,Manufacturing,24491831,6305950,6662314,16279,Non-Compliant,1.76,2.45,0.32,1.21,10.54,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_877,Agriculture,31747234,3612883,14284503,3129,Non-Compliant,1.35,1.62,0.56,0.22,23.01,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_878,Logistics,39035694,3428631,14567593,5447,Compliant,0.47,0.37,3.98,3.64,22.63,71.0,Low Risk,Eligible for growth investment or working capital loan
+SME_879,Manufacturing,5790717,14618200,5830395,6129,Delayed,1.74,1.28,2.42,4.07,27.39,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_880,Logistics,34572781,15387811,18434369,5850,Compliant,1.12,1.44,3.73,4.0,23.64,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_881,Agriculture,20159206,28136989,9873863,7446,Non-Compliant,1.43,0.6,3.87,0.73,15.75,31.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_882,Services,1297968,6823959,15410095,11949,Compliant,2.56,0.49,4.18,4.53,14.37,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_883,Services,36710403,44121579,7083610,8519,Compliant,1.97,1.7,4.28,3.39,8.69,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_884,Services,29663439,4424733,16411413,314,Non-Compliant,0.7,0.44,2.54,4.5,15.06,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_885,Services,31507736,22036437,15547546,11737,Delayed,3.38,1.05,1.6,2.29,21.81,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_886,Retail,20151515,43757062,18583900,1134,Compliant,2.33,2.28,4.33,2.24,28.76,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_887,Services,7839838,43295286,18587074,10938,Non-Compliant,2.75,2.9,2.51,3.94,8.69,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_888,Agriculture,47291381,419675,17256299,15588,Delayed,0.55,2.21,0.38,0.56,12.95,61.0,Medium Risk,Optimize working capital and control operational costs
+SME_889,E-commerce,17020181,25639821,1901740,8347,Non-Compliant,0.45,2.98,2.93,2.65,7.79,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_890,E-commerce,14967188,26533385,5648393,5592,Compliant,0.36,2.16,2.69,4.2,16.74,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_891,Retail,3438199,27564495,12651235,18108,Delayed,0.9,1.02,4.04,4.17,15.2,76.0,Low Risk,Eligible for growth investment or working capital loan
+SME_892,Services,49341287,40765237,7395873,19727,Delayed,1.63,2.08,2.97,4.79,-9.29,69.0,Medium Risk,Optimize working capital and control operational costs
+SME_893,Services,9498604,30515806,4584946,17270,Non-Compliant,3.29,2.17,1.64,3.52,11.65,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_894,Services,38964208,4864344,10684544,10997,Non-Compliant,1.76,1.24,4.35,1.12,-6.46,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_895,Logistics,49778740,11197637,13724252,721,Non-Compliant,1.23,0.25,3.63,0.2,-8.94,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_896,Manufacturing,43221553,12710059,19484400,9104,Delayed,2.1,2.17,2.87,2.45,21.65,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_897,Logistics,37357821,966088,11300674,19741,Delayed,0.66,0.26,1.39,2.62,0.35,39.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_898,Manufacturing,8525407,14127532,7873491,870,Compliant,2.25,1.97,1.74,1.28,3.63,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_899,Services,21631601,40513379,18317940,6751,Delayed,2.12,0.66,3.05,0.71,-7.44,4.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_900,Services,48555661,10551607,5875293,16881,Compliant,2.83,1.78,0.42,2.97,-2.82,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_901,Logistics,26054414,1058003,18742946,1756,Non-Compliant,3.46,1.61,1.23,3.84,20.62,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_902,Logistics,27431806,44743121,12951138,1117,Non-Compliant,1.1,0.24,3.24,4.97,9.74,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_903,Manufacturing,13976005,1205113,9064281,11601,Delayed,1.93,1.22,2.21,3.82,25.23,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_904,E-commerce,45221695,9722004,1094316,2828,Non-Compliant,3.21,1.88,1.87,3.99,5.89,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_905,Manufacturing,3651882,5428035,4300915,14996,Non-Compliant,2.81,2.58,0.77,3.12,0.75,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_906,Logistics,32634444,11951409,15078236,18031,Delayed,1.86,2.69,2.04,4.93,3.9,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_907,Agriculture,30819320,21211680,6760403,13878,Compliant,3.33,1.55,3.49,3.24,18.51,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_908,Logistics,3710016,27169370,15155892,6992,Delayed,0.48,2.24,1.26,4.32,12.2,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_909,Agriculture,7237320,15833222,6620241,13778,Compliant,3.28,1.09,0.12,4.73,26.17,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_910,Retail,36443815,36046533,1636675,6771,Delayed,0.46,1.16,3.04,4.66,14.09,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_911,Logistics,24273962,39949566,15125440,16526,Delayed,2.05,0.74,4.38,1.97,9.72,43.0,Medium Risk,Optimize working capital and control operational costs
+SME_912,Retail,48518519,10747918,16316160,19145,Non-Compliant,3.15,1.77,2.77,0.49,21.43,87.0,Low Risk,Eligible for growth investment or working capital loan
+SME_913,E-commerce,23250760,27021905,17579065,3435,Delayed,1.14,1.08,0.63,0.94,27.9,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_914,Manufacturing,33442480,32782711,10117273,6622,Delayed,1.81,0.44,1.51,0.39,4.23,31.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_915,Agriculture,39336811,6608714,17938284,12852,Compliant,1.34,2.12,3.92,0.62,-0.0,11.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_916,Manufacturing,10325144,44506899,1035891,14806,Non-Compliant,3.35,2.18,1.12,1.0,14.65,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_917,Retail,36597069,13234263,17530710,10623,Compliant,2.94,1.21,2.77,1.77,9.95,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_918,Agriculture,8533951,31047215,16658746,1848,Compliant,2.57,0.41,1.87,2.76,29.57,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_919,Manufacturing,12279534,12524052,9031370,2696,Non-Compliant,2.18,1.39,1.01,3.59,8.49,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_920,Logistics,38212981,23519273,7611432,1717,Non-Compliant,2.93,1.44,3.68,1.13,-7.03,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_921,Services,31529339,28158455,9156484,19456,Non-Compliant,1.56,2.07,3.37,3.4,29.09,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_922,Retail,10234816,44027391,13722816,9259,Delayed,1.73,1.08,3.01,3.55,23.74,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_923,Manufacturing,44221639,43805476,14374288,2786,Non-Compliant,2.64,2.11,1.14,2.84,-2.87,86.0,Low Risk,Eligible for growth investment or working capital loan
+SME_924,Retail,42465471,28446417,5277420,14154,Non-Compliant,1.44,2.64,0.53,4.53,26.18,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_925,Retail,16552465,19040452,7272003,13409,Non-Compliant,0.5,0.86,2.64,0.64,3.63,7.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_926,Agriculture,43090048,27912406,15020740,3791,Compliant,0.54,2.94,2.54,0.97,5.08,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_927,Agriculture,9462049,16251428,1760511,3871,Compliant,0.67,1.28,0.93,2.2,26.26,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_928,Services,13351424,12555863,3541815,1806,Delayed,3.08,0.95,0.35,0.72,11.2,85.0,Low Risk,Eligible for growth investment or working capital loan
+SME_929,Logistics,42339392,43942832,8434610,17888,Compliant,1.81,1.38,0.46,2.87,-4.49,70.0,Low Risk,Eligible for growth investment or working capital loan
+SME_930,Retail,32856072,14381528,4610146,19692,Delayed,2.58,0.46,4.47,2.05,4.76,39.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_931,Manufacturing,30036204,41356756,4139289,13304,Compliant,1.56,0.55,3.55,1.49,18.88,54.0,Medium Risk,Optimize working capital and control operational costs
+SME_932,E-commerce,19327165,25123448,15986546,18074,Non-Compliant,1.13,1.36,4.16,0.93,-3.03,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_933,Retail,8888512,20675624,5351826,15549,Compliant,1.41,2.33,0.96,1.74,13.61,88.0,Low Risk,Eligible for growth investment or working capital loan
+SME_934,Retail,2447763,27931424,13698156,3303,Delayed,2.84,2.72,4.33,3.08,17.81,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_935,Services,27550901,5803252,6390459,19497,Compliant,2.3,2.06,0.73,2.92,3.75,99.0,Low Risk,Eligible for growth investment or working capital loan
+SME_936,Logistics,41708934,28604739,1784006,16061,Non-Compliant,3.3,0.49,2.34,0.9,17.76,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_937,E-commerce,33638881,4551785,14900526,15198,Delayed,2.48,2.08,3.75,0.71,25.37,82.0,Low Risk,Eligible for growth investment or working capital loan
+SME_938,Agriculture,37936581,29889478,4913478,17888,Non-Compliant,2.12,1.98,1.64,0.23,8.88,56.0,Medium Risk,Optimize working capital and control operational costs
+SME_939,Agriculture,22150278,33754320,9017497,10655,Non-Compliant,2.25,2.46,1.97,0.16,5.32,52.0,Medium Risk,Optimize working capital and control operational costs
+SME_940,Manufacturing,8939469,23566524,8303143,8924,Delayed,3.32,2.51,0.66,4.41,0.05,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_941,E-commerce,24955289,37592252,10755716,9940,Non-Compliant,2.82,2.63,0.64,0.32,14.17,95.0,Low Risk,Eligible for growth investment or working capital loan
+SME_942,Agriculture,16441617,3684321,12233494,3924,Non-Compliant,0.38,1.36,2.83,3.68,25.19,97.0,Low Risk,Eligible for growth investment or working capital loan
+SME_943,Manufacturing,38900142,17856057,6679155,9783,Compliant,2.01,2.15,3.07,4.37,2.99,92.0,Low Risk,Eligible for growth investment or working capital loan
+SME_944,Logistics,43164041,22597928,5737580,4485,Non-Compliant,2.5,0.95,3.52,0.58,5.85,32.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_945,Manufacturing,48743574,20629717,14773394,12629,Non-Compliant,2.7,3.0,2.55,2.24,6.27,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_946,Agriculture,46962256,8833840,225391,13233,Non-Compliant,0.98,0.69,2.94,4.82,12.43,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_947,Services,49592554,15540449,14893670,12901,Non-Compliant,3.07,0.23,0.16,4.19,-0.86,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_948,Services,14891234,15863365,6698541,191,Delayed,3.36,0.62,0.81,2.5,22.89,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_949,Services,24535962,32170093,16968603,4917,Compliant,1.06,2.37,4.43,3.84,1.82,57.0,Medium Risk,Optimize working capital and control operational costs
+SME_950,Agriculture,1943717,22629189,13872621,5831,Non-Compliant,3.12,1.45,0.43,4.18,18.21,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_951,Services,4909352,14009569,3632632,10160,Non-Compliant,0.61,1.45,3.09,1.81,10.53,41.0,Medium Risk,Optimize working capital and control operational costs
+SME_952,E-commerce,31550824,1779904,14106894,13682,Delayed,0.48,2.87,0.87,4.47,13.44,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_953,Logistics,22388358,29414857,19312610,12391,Non-Compliant,0.71,2.77,3.25,2.41,-2.82,36.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_954,Manufacturing,15829502,41307604,13580994,1874,Delayed,0.48,1.07,3.21,2.69,19.4,65.0,Medium Risk,Optimize working capital and control operational costs
+SME_955,Manufacturing,43648703,1837188,5596526,9062,Compliant,3.0,0.79,1.13,5.0,-2.46,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_956,Agriculture,8921928,35610753,3291070,4763,Compliant,0.49,2.58,1.29,4.23,-5.46,73.0,Low Risk,Eligible for growth investment or working capital loan
+SME_957,Services,25992849,34493077,17463484,10234,Non-Compliant,1.17,2.74,2.98,1.87,11.87,67.0,Medium Risk,Optimize working capital and control operational costs
+SME_958,Services,42807399,27137775,801955,9221,Non-Compliant,0.63,1.72,1.82,0.15,18.37,47.0,Medium Risk,Optimize working capital and control operational costs
+SME_959,Retail,47581137,16774601,2013148,11410,Non-Compliant,1.25,1.96,0.96,3.17,-8.0,60.0,Medium Risk,Optimize working capital and control operational costs
+SME_960,Logistics,1808507,39787233,4467223,14519,Delayed,0.59,0.92,3.32,3.55,-7.22,24.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_961,E-commerce,21343837,11618063,19221507,1051,Non-Compliant,2.44,2.44,0.78,3.29,22.11,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_962,Manufacturing,9831795,24089071,13561666,12225,Non-Compliant,0.73,1.97,3.86,4.84,22.36,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_963,Retail,49141341,30624818,147745,9765,Compliant,3.03,1.61,2.36,4.33,-0.19,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_964,Retail,12882318,44846332,3792824,11382,Non-Compliant,2.92,0.37,0.57,2.3,14.61,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_965,Agriculture,10486298,40504523,10119600,12580,Compliant,0.34,2.76,3.15,0.41,7.73,23.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_966,Manufacturing,600734,24967790,137686,11989,Non-Compliant,3.17,1.92,2.38,2.43,15.31,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_967,Agriculture,9046310,11399077,5250295,11939,Compliant,0.39,0.74,1.41,3.48,24.52,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_968,E-commerce,20128490,41325115,4151923,18489,Non-Compliant,1.07,1.9,1.96,3.08,-6.81,48.0,Medium Risk,Optimize working capital and control operational costs
+SME_969,Retail,18503027,26663177,14401814,307,Compliant,0.4,2.1,1.41,2.74,21.12,96.0,Low Risk,Eligible for growth investment or working capital loan
+SME_970,Retail,26812911,40393954,5679980,3359,Delayed,1.37,1.67,1.26,2.4,9.72,80.0,Low Risk,Eligible for growth investment or working capital loan
+SME_971,Logistics,3581091,22225215,5149534,3176,Compliant,1.94,2.21,0.82,1.54,12.57,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_972,E-commerce,16502437,21995966,12312829,1251,Compliant,2.85,1.83,1.7,1.46,16.16,98.0,Low Risk,Eligible for growth investment or working capital loan
+SME_973,Retail,21106265,37426182,3314344,5366,Compliant,1.38,2.85,1.2,2.55,26.9,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_974,E-commerce,11591989,36719763,49976,17901,Non-Compliant,2.56,0.35,3.11,0.89,-7.73,9.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_975,Manufacturing,13181730,9376766,19299836,6226,Non-Compliant,0.9,0.5,3.11,1.77,-8.82,0.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_976,Services,41319838,36585155,10751736,14330,Non-Compliant,2.7,0.69,2.31,1.69,-2.87,44.0,Medium Risk,Optimize working capital and control operational costs
+SME_977,Retail,46789704,29397485,12031301,4891,Delayed,1.06,2.13,3.52,2.98,29.46,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_978,Logistics,33783771,18042355,18804536,4992,Delayed,0.76,2.01,3.8,0.43,18.6,37.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_979,Manufacturing,5255469,16552789,18589321,1961,Compliant,0.89,2.7,2.65,4.17,14.59,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_980,E-commerce,15553770,10367246,1947238,12497,Delayed,0.88,2.25,2.82,2.86,-8.12,34.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_981,Agriculture,26598641,7943159,9784404,19247,Compliant,1.94,1.62,1.34,3.39,25.16,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_982,Manufacturing,42028843,5784935,16553474,10848,Compliant,3.0,2.98,4.04,3.55,22.51,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_983,Retail,14650540,12555092,6330034,13255,Compliant,0.55,0.95,0.21,1.53,16.59,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_984,E-commerce,45721400,14914254,11949870,4567,Delayed,2.56,2.53,1.63,2.4,3.57,91.0,Low Risk,Eligible for growth investment or working capital loan
+SME_985,Services,27846162,20078933,15542211,16079,Non-Compliant,2.39,1.4,3.28,4.79,-7.18,75.0,Low Risk,Eligible for growth investment or working capital loan
+SME_986,Manufacturing,2492825,23463155,45475,6513,Delayed,3.09,2.02,0.45,3.86,13.2,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_987,Retail,4332978,23993741,8080552,15235,Compliant,1.08,2.24,0.91,4.85,18.79,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_988,Logistics,31059798,19388954,5396364,11755,Compliant,1.74,1.97,2.69,3.76,-6.23,63.0,Medium Risk,Optimize working capital and control operational costs
+SME_989,Agriculture,6652941,39647228,3239254,11151,Delayed,3.26,0.59,2.56,0.96,15.35,74.0,Low Risk,Eligible for growth investment or working capital loan
+SME_990,E-commerce,38170243,3039929,1099577,16567,Compliant,2.41,1.44,3.35,0.42,1.45,26.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_991,Manufacturing,43037644,3533211,7232024,3358,Compliant,1.54,1.77,3.68,2.93,20.57,89.0,Low Risk,Eligible for growth investment or working capital loan
+SME_992,Manufacturing,44492967,27834009,12084335,9590,Delayed,0.72,2.58,0.67,1.85,11.58,81.0,Low Risk,Eligible for growth investment or working capital loan
+SME_993,Services,36786070,24617665,18380186,10988,Delayed,1.14,1.44,0.18,1.45,-4.84,42.0,Medium Risk,Optimize working capital and control operational costs
+SME_994,Services,11056086,12016152,8274125,7678,Delayed,2.16,2.77,3.13,4.06,11.06,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_995,Logistics,23789643,2126199,1531064,5698,Compliant,2.6,1.43,1.43,1.9,5.83,79.0,Low Risk,Eligible for growth investment or working capital loan
+SME_996,Agriculture,36958065,13156935,16121213,1273,Compliant,0.7,1.74,2.85,1.65,-2.79,19.0,High Risk,"Reduce expenses, improve cash inflow, and avoid new loans"
+SME_997,Logistics,22989029,5471915,4411887,11241,Non-Compliant,2.22,2.43,0.76,4.26,23.66,100.0,Low Risk,Eligible for growth investment or working capital loan
+SME_998,Retail,2440369,32405216,15043962,17480,Non-Compliant,2.06,1.83,2.16,4.25,-9.56,72.0,Low Risk,Eligible for growth investment or working capital loan
+SME_999,Retail,42181557,843945,8615797,9497,Delayed,1.94,2.89,2.32,1.85,2.49,68.0,Medium Risk,Optimize working capital and control operational costs
+SME_1000,Logistics,18494276,6710114,2076198,9107,Non-Compliant,2.51,2.05,2.67,4.18,-9.5,75.0,Low Risk,Eligible for growth investment or working capital loan
